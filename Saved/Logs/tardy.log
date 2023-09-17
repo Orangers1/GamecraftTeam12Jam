@@ -1124,6 +1124,7 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.17-17.59.19:811][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2023.09.17-17.59.19:876][  1]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
 
+<<<<<<< HEAD
 [2023.09.17-17.59.19:880][  1]Running Python start-up script 'C:/Unreal/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.035644 secs
 [2023.09.17-17.59.20:829][  4]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
 [2023.09.17-17.59.21:015][  4]LogEditorViewport: Clicking Background
@@ -1729,3 +1730,1532 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.17-17.59.37:968][286]LogD3D12RHI: ~FD3D12DynamicRHI
 [2023.09.17-17.59.37:991][286]LogExit: Exiting.
 [2023.09.17-17.59.38:046][286]Log file closed, 09/17/23 11:59:38
+=======
+[2023.09.17-17.14.45:675][  1]Running Python start-up script 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.056194 secs
+[2023.09.17-17.14.45:712][  1]LogD3D12RHI: Cannot end block when stack is empty
+[2023.09.17-17.14.46:568][ 36]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.09.17-17.14.48:167][107]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2023.09.17-17.14.48:181][107]LogAssetRegistry: AssetRegistryGather time 12.6328s: AssetDataDiscovery 0.0445s, AssetDataGather 12.5260s, StoreResults 0.0623s.
+[2023.09.17-17.14.48:265][107]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2023.09.17-17.14.48:281][108]LogAssetRegistry: Display: Asset registry cache written as 16.3 MiB to ../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Intermediate/CachedAssetRegistry_*.bin
+[2023.09.17-17.14.56:796][609]LogSlate: Took 0.010046 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.09.17-17.14.59:707][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.09.17-17.15.00:030][772]LogStaticMesh: Display: Building static mesh carGarbage_arm...
+[2023.09.17-17.15.00:040][772]LogStaticMesh: Display: Building static mesh carGarbage_body_3...
+[2023.09.17-17.15.00:041][772]LogStaticMesh: Display: Building static mesh carGarbage_wheelFrontRight_3...
+[2023.09.17-17.15.00:042][772]LogStaticMesh: Display: Building static mesh carGarbage_wheelBackRight_3...
+[2023.09.17-17.15.00:042][772]LogStaticMesh: Display: Building static mesh carGarbage_wheelFrontLeft_3...
+[2023.09.17-17.15.00:045][772]LogStaticMesh: Display: Building static mesh carGarbage_wheelBackLeft_3...
+[2023.09.17-17.15.00:046][772]LogStaticMesh: Display: Building static mesh SchoolHouseModel_Cone...
+[2023.09.17-17.15.00:047][772]LogStaticMesh: Built static mesh [0.02s] /Game/Environment/Cars/GarbageTruck/carGarbage_arm.carGarbage_arm
+[2023.09.17-17.15.00:050][772]LogStaticMesh: Built static mesh [0.00s] /Game/Environment/School/SchoolHouseModel_Cone.SchoolHouseModel_Cone
+[2023.09.17-17.15.00:052][772]LogStaticMesh: Display: Building static mesh SchoolHouseModel_Cube...
+[2023.09.17-17.15.00:053][772]LogStaticMesh: Built static mesh [0.01s] /Game/Environment/Cars/GarbageTruck/carGarbage_wheelFrontRight_3.carGarbage_wheelFrontRight_3
+[2023.09.17-17.15.00:054][772]LogStaticMesh: Built static mesh [0.01s] /Game/Environment/Cars/GarbageTruck/carGarbage_wheelFrontLeft_3.carGarbage_wheelFrontLeft_3
+[2023.09.17-17.15.00:057][772]LogStaticMesh: Built static mesh [0.02s] /Game/Environment/Cars/GarbageTruck/carGarbage_body_3.carGarbage_body_3
+[2023.09.17-17.15.00:057][772]LogStaticMesh: Built static mesh [0.02s] /Game/Environment/Cars/GarbageTruck/carGarbage_wheelBackRight_3.carGarbage_wheelBackRight_3
+[2023.09.17-17.15.00:060][772]LogStaticMesh: Built static mesh [0.01s] /Game/Environment/School/SchoolHouseModel_Cube.SchoolHouseModel_Cube
+[2023.09.17-17.15.00:061][772]LogStaticMesh: Built static mesh [0.02s] /Game/Environment/Cars/GarbageTruck/carGarbage_wheelBackLeft_3.carGarbage_wheelBackLeft_3
+[2023.09.17-17.15.00:086][772]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.15.00:094][772]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Level1.Level1
+[2023.09.17-17.15.00:096][772]Cmd: MAP LOAD FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.17-17.15.00:096][772]LightingResults: New page: Lighting Build
+[2023.09.17-17.15.00:096][772]LoadErrors: New page: Loading map: Level1.umap
+[2023.09.17-17.15.00:119][772]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.15.00:119][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.15.00:119][772]MapCheck: New page: Map Check
+[2023.09.17-17.15.00:119][772]LightingResults: New page: Lighting Build
+[2023.09.17-17.15.00:123][772]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.17-17.15.00:125][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.09.17-17.15.00:127][772]LogStaticMesh: Display: Building static mesh tile_slant...
+[2023.09.17-17.15.00:130][772]LogStaticMesh: Built static mesh [0.00s] /Game/Environment/Roads/tile_slant.tile_slant
+[2023.09.17-17.15.00:146][772]LogStaticMesh: Display: Waiting for static meshes to be ready 2/22 (/Game/Environment/Houses/house_type08) ...
+[2023.09.17-17.15.00:860][772]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.15.00:861][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.15.00:867][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.09.17-17.15.00:870][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.09.17-17.15.00:882][772]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level1'.
+[2023.09.17-17.15.00:882][772]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.15.00:882][772]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.15.00:882][772]LogAIModule: Creating AISystem for world Level1
+[2023.09.17-17.15.01:019][772]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.17-17.15.01:031][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.09.17-17.15.01:040][772]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.17-17.15.01:041][772]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.215ms to complete.
+[2023.09.17-17.15.14:276][515]LogStatusBar: Looking status bar with open content browser drawer...
+[2023.09.17-17.15.14:276][515]LogStatusBar: Using status bar: LevelEditor.StatusBar to dock content browser
+[2023.09.17-17.15.14:319][515]LogViewport: Scene viewport resized to 1523x586, mode Windowed.
+[2023.09.17-17.15.16:798][658]LogViewport: Scene viewport resized to 1523x591, mode Windowed.
+[2023.09.17-17.15.16:814][659]LogViewport: Scene viewport resized to 1523x593, mode Windowed.
+[2023.09.17-17.15.16:890][660]LogViewport: Scene viewport resized to 1523x631, mode Windowed.
+[2023.09.17-17.15.16:918][661]LogViewport: Scene viewport resized to 1523x638, mode Windowed.
+[2023.09.17-17.15.16:967][662]LogViewport: Scene viewport resized to 1523x642, mode Windowed.
+[2023.09.17-17.15.17:014][664]LogViewport: Scene viewport resized to 1523x645, mode Windowed.
+[2023.09.17-17.15.17:031][665]LogViewport: Scene viewport resized to 1523x647, mode Windowed.
+[2023.09.17-17.15.17:058][666]LogViewport: Scene viewport resized to 1523x651, mode Windowed.
+[2023.09.17-17.15.17:086][667]LogViewport: Scene viewport resized to 1523x660, mode Windowed.
+[2023.09.17-17.15.17:113][668]LogViewport: Scene viewport resized to 1523x667, mode Windowed.
+[2023.09.17-17.15.17:170][669]LogViewport: Scene viewport resized to 1523x677, mode Windowed.
+[2023.09.17-17.15.17:200][670]LogViewport: Scene viewport resized to 1523x681, mode Windowed.
+[2023.09.17-17.15.17:245][672]LogViewport: Scene viewport resized to 1523x684, mode Windowed.
+[2023.09.17-17.15.17:304][675]LogViewport: Scene viewport resized to 1523x688, mode Windowed.
+[2023.09.17-17.15.17:318][676]LogViewport: Scene viewport resized to 1523x690, mode Windowed.
+[2023.09.17-17.15.17:350][677]LogViewport: Scene viewport resized to 1523x695, mode Windowed.
+[2023.09.17-17.15.17:379][678]LogViewport: Scene viewport resized to 1523x698, mode Windowed.
+[2023.09.17-17.15.17:437][679]LogViewport: Scene viewport resized to 1523x701, mode Windowed.
+[2023.09.17-17.15.17:464][680]LogViewport: Scene viewport resized to 1523x703, mode Windowed.
+[2023.09.17-17.15.17:503][681]LogViewport: Scene viewport resized to 1523x709, mode Windowed.
+[2023.09.17-17.15.17:548][683]LogViewport: Scene viewport resized to 1523x711, mode Windowed.
+[2023.09.17-17.15.19:391][791]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.17-17.15.19:403][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.17-17.15.19:404][791]PIE: New page: PIE session: Level1 (Sep 17, 2023, 5:15:19 AM)
+[2023.09.17-17.15.19:410][791]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.09.17-17.15.19:410][791]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2023.09.17-17.15.19:411][791]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2023.09.17-17.15.19:430][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019096s)
+[2023.09.17-17.15.19:430][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.019176s)
+[2023.09.17-17.15.19:435][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.09.17-17.15.19:485][791]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.15.19:486][791]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.15.19:487][791]LogAIModule: Creating AISystem for world Level1
+[2023.09.17-17.15.19:488][791]LogPlayLevel: PIE: World Init took: (0.003286s)
+[2023.09.17-17.15.19:493][791]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.09.17-17.15.19:493][791]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.17-17.15.19:493][791]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.17-17.15.19:493][791]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.17-17.15.19:493][791]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.17-17.15.19:493][791]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.17-17.15.19:493][791]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.17-17.15.19:493][791]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.17-17.15.19:493][791]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.17-17.15.19:494][791]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.17-17.15.19:494][791]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.17-17.15.19:495][791]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.17-17.15.19:498][791]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.17-17.15.19:530][791]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.09.17-17.15.19:530][791]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.17-17.15.19:531][791]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.17-17.15.19:531][791]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.17-17.15.19:534][791]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.09.17-17.15.19:534][791]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.09.17-17.15.19:537][791]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.09.17-17.15.19:537][791]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.09.17-17.15.19:537][791]LogInit: FAudioDevice initialized with ID 2.
+[2023.09.17-17.15.19:537][791]LogAudio: Display: Audio Device (ID: 2) registered with world 'Level1'.
+[2023.09.17-17.15.19:537][791]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2023.09.17-17.15.19:542][791]LogLoad: Game class is 'PlayingGameMode_C'
+[2023.09.17-17.15.19:558][791]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2023.09.17-11.15.19
+[2023.09.17-17.15.19:559][791]LogWorld: Bringing up level for play took: 0.017086
+[2023.09.17-17.15.19:564][791]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2023.09.17-17.15.19:597][791]PIE: Server logged in
+[2023.09.17-17.15.19:599][791]PIE: Play in editor total start time 0.196 seconds.
+[2023.09.17-17.15.19:625][791]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Electronic_Hollow_main'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.09.17-17.15.59:175][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.15.59:175][143]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2023.09.17-17.15.59:175][143]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.15.59:176][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.15.59:181][143]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.17-17.15.59:184][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.15.59:189][143]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.17-17.15.59:190][143]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2023.09.17-17.15.59:190][143]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.09.17-17.15.59:192][143]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.09.17-17.15.59:198][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.15.59:204][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.09.17-17.15.59:271][145]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2023.09.17-17.16.10:814][836]LogViewport: Scene viewport resized to 1523x699, mode Windowed.
+[2023.09.17-17.16.10:830][837]LogViewport: Scene viewport resized to 1523x691, mode Windowed.
+[2023.09.17-17.16.10:862][838]LogViewport: Scene viewport resized to 1523x676, mode Windowed.
+[2023.09.17-17.16.10:897][839]LogViewport: Scene viewport resized to 1523x647, mode Windowed.
+[2023.09.17-17.16.10:929][840]LogViewport: Scene viewport resized to 1523x627, mode Windowed.
+[2023.09.17-17.16.10:962][841]LogViewport: Scene viewport resized to 1523x601, mode Windowed.
+[2023.09.17-17.16.10:995][842]LogViewport: Scene viewport resized to 1523x595, mode Windowed.
+[2023.09.17-17.16.11:026][843]LogViewport: Scene viewport resized to 1523x585, mode Windowed.
+[2023.09.17-17.16.11:057][844]LogViewport: Scene viewport resized to 1523x577, mode Windowed.
+[2023.09.17-17.16.11:089][845]LogViewport: Scene viewport resized to 1523x569, mode Windowed.
+[2023.09.17-17.16.11:119][846]LogViewport: Scene viewport resized to 1523x560, mode Windowed.
+[2023.09.17-17.16.11:150][847]LogViewport: Scene viewport resized to 1523x552, mode Windowed.
+[2023.09.17-17.16.11:182][848]LogViewport: Scene viewport resized to 1523x548, mode Windowed.
+[2023.09.17-17.16.14:729][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.09.17-17.16.14:865][ 57]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.16.14:868][ 57]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
+[2023.09.17-17.16.14:868][ 57]Cmd: MAP LOAD FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.17-17.16.14:868][ 57]LightingResults: New page: Lighting Build
+[2023.09.17-17.16.14:868][ 57]LoadErrors: New page: Loading map: MainMenu.umap
+[2023.09.17-17.16.14:895][ 57]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.16.14:895][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.16.14:896][ 57]MapCheck: New page: Map Check
+[2023.09.17-17.16.14:896][ 57]LightingResults: New page: Lighting Build
+[2023.09.17-17.16.14:901][ 57]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.17-17.16.14:905][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.09.17-17.16.14:907][ 57]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.16.14:907][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.16.14:911][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.09.17-17.16.14:915][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.09.17-17.16.14:917][ 57]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2023.09.17-17.16.14:917][ 57]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.16.14:917][ 57]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.16.14:918][ 57]LogAIModule: Creating AISystem for world MainMenu
+[2023.09.17-17.16.14:930][ 57]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.17-17.16.14:935][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.09.17-17.16.14:940][ 57]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.17-17.16.14:940][ 57]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.107ms to complete.
+[2023.09.17-17.16.16:182][123]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.17-17.16.16:189][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.17-17.16.16:189][123]PIE: New page: PIE session: MainMenu (Sep 17, 2023, 5:16:16 AM)
+[2023.09.17-17.16.16:224][123]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2023.09.17-17.16.16:227][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002548s)
+[2023.09.17-17.16.16:227][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.002675s)
+[2023.09.17-17.16.16:233][123]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.09.17-17.16.16:234][123]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.16.16:234][123]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.16.16:235][123]LogAIModule: Creating AISystem for world MainMenu
+[2023.09.17-17.16.16:236][123]LogPlayLevel: PIE: World Init took: (0.001733s)
+[2023.09.17-17.16.16:236][123]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.09.17-17.16.16:236][123]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.17-17.16.16:236][123]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.17-17.16.16:236][123]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.17-17.16.16:236][123]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.17-17.16.16:236][123]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.17-17.16.16:236][123]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.17-17.16.16:236][123]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.17-17.16.16:236][123]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.17-17.16.16:237][123]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.17-17.16.16:237][123]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.17-17.16.16:237][123]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.17-17.16.16:241][123]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.17-17.16.16:268][123]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.09.17-17.16.16:268][123]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.17-17.16.16:268][123]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.17-17.16.16:268][123]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.17-17.16.16:269][123]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.09.17-17.16.16:269][123]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.09.17-17.16.16:272][123]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.09.17-17.16.16:272][123]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.09.17-17.16.16:272][123]LogInit: FAudioDevice initialized with ID 3.
+[2023.09.17-17.16.16:272][123]LogAudio: Display: Audio Device (ID: 3) registered with world 'MainMenu'.
+[2023.09.17-17.16.16:272][123]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.09.17-17.16.16:275][123]LogLoad: Game class is 'MainMenuGameMode_C'
+[2023.09.17-17.16.16:276][123]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2023.09.17-11.16.16
+[2023.09.17-17.16.16:276][123]LogWorld: Bringing up level for play took: 0.000424
+[2023.09.17-17.16.16:278][123]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2023.09.17-17.16.16:281][123]LogWindows: WindowsPlatformFeatures enabled
+[2023.09.17-17.16.16:281][123]LogStreaming: Warning: Failed to read file '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/SaveGames/Slot1.sav' error.
+[2023.09.17-17.16.16:281][123]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.09.17-17.16.16:281][123]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.09.17-17.16.16:281][123]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.09.17-17.16.16:281][123]PIE: Server logged in
+[2023.09.17-17.16.16:283][123]PIE: Play in editor total start time 0.094 seconds.
+[2023.09.17-17.16.16:285][123]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Electronic_Chilled_main'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.09.17-17.16.19:944][337]LogViewport: Scene viewport resized to 1523x580, mode Windowed.
+[2023.09.17-17.16.19:962][338]LogViewport: Scene viewport resized to 1523x625, mode Windowed.
+[2023.09.17-17.16.19:998][339]LogViewport: Scene viewport resized to 1523x676, mode Windowed.
+[2023.09.17-17.16.20:015][340]LogViewport: Scene viewport resized to 1523x693, mode Windowed.
+[2023.09.17-17.16.20:038][341]LogViewport: Scene viewport resized to 1523x704, mode Windowed.
+[2023.09.17-17.16.20:056][342]LogViewport: Scene viewport resized to 1523x708, mode Windowed.
+[2023.09.17-17.16.20:073][343]LogViewport: Scene viewport resized to 1523x711, mode Windowed.
+[2023.09.17-17.16.20:090][344]LogViewport: Scene viewport resized to 1523x714, mode Windowed.
+[2023.09.17-17.16.20:108][345]LogViewport: Scene viewport resized to 1523x715, mode Windowed.
+[2023.09.17-17.16.20:195][350]LogViewport: Scene viewport resized to 1523x717, mode Windowed.
+[2023.09.17-17.16.20:209][351]LogViewport: Scene viewport resized to 1523x719, mode Windowed.
+[2023.09.17-17.16.21:435][423]LogViewport: Scene viewport resized to 1523x717, mode Windowed.
+[2023.09.17-17.16.21:453][424]LogViewport: Scene viewport resized to 1523x707, mode Windowed.
+[2023.09.17-17.16.21:545][425]LogViewport: Scene viewport resized to 1523x663, mode Windowed.
+[2023.09.17-17.16.21:565][426]LogViewport: Scene viewport resized to 1523x658, mode Windowed.
+[2023.09.17-17.16.21:586][427]LogViewport: Scene viewport resized to 1523x651, mode Windowed.
+[2023.09.17-17.16.21:605][428]LogViewport: Scene viewport resized to 1523x639, mode Windowed.
+[2023.09.17-17.16.21:626][429]LogViewport: Scene viewport resized to 1523x631, mode Windowed.
+[2023.09.17-17.16.21:645][430]LogViewport: Scene viewport resized to 1523x625, mode Windowed.
+[2023.09.17-17.16.21:665][431]LogViewport: Scene viewport resized to 1523x621, mode Windowed.
+[2023.09.17-17.16.21:687][432]LogViewport: Scene viewport resized to 1523x620, mode Windowed.
+[2023.09.17-17.16.21:705][433]LogViewport: Scene viewport resized to 1523x617, mode Windowed.
+[2023.09.17-17.16.21:721][434]LogViewport: Scene viewport resized to 1523x616, mode Windowed.
+[2023.09.17-17.16.21:737][435]LogViewport: Scene viewport resized to 1523x615, mode Windowed.
+[2023.09.17-17.16.21:770][437]LogViewport: Scene viewport resized to 1523x610, mode Windowed.
+[2023.09.17-17.16.21:787][438]LogViewport: Scene viewport resized to 1523x606, mode Windowed.
+[2023.09.17-17.16.21:804][439]LogViewport: Scene viewport resized to 1523x602, mode Windowed.
+[2023.09.17-17.16.21:821][440]LogViewport: Scene viewport resized to 1523x600, mode Windowed.
+[2023.09.17-17.16.21:838][441]LogViewport: Scene viewport resized to 1523x597, mode Windowed.
+[2023.09.17-17.16.21:854][442]LogViewport: Scene viewport resized to 1523x592, mode Windowed.
+[2023.09.17-17.16.21:871][443]LogViewport: Scene viewport resized to 1523x586, mode Windowed.
+[2023.09.17-17.16.21:887][444]LogViewport: Scene viewport resized to 1523x582, mode Windowed.
+[2023.09.17-17.16.21:904][445]LogViewport: Scene viewport resized to 1523x565, mode Windowed.
+[2023.09.17-17.16.21:922][446]LogViewport: Scene viewport resized to 1523x555, mode Windowed.
+[2023.09.17-17.16.21:939][447]LogViewport: Scene viewport resized to 1523x549, mode Windowed.
+[2023.09.17-17.16.21:956][448]LogViewport: Scene viewport resized to 1523x535, mode Windowed.
+[2023.09.17-17.16.21:972][449]LogViewport: Scene viewport resized to 1523x530, mode Windowed.
+[2023.09.17-17.16.21:989][450]LogViewport: Scene viewport resized to 1523x521, mode Windowed.
+[2023.09.17-17.16.22:006][451]LogViewport: Scene viewport resized to 1523x511, mode Windowed.
+[2023.09.17-17.16.22:021][452]LogViewport: Scene viewport resized to 1523x504, mode Windowed.
+[2023.09.17-17.16.22:038][453]LogViewport: Scene viewport resized to 1523x498, mode Windowed.
+[2023.09.17-17.16.22:056][454]LogViewport: Scene viewport resized to 1523x489, mode Windowed.
+[2023.09.17-17.16.22:077][455]LogViewport: Scene viewport resized to 1523x481, mode Windowed.
+[2023.09.17-17.16.22:092][456]LogViewport: Scene viewport resized to 1523x476, mode Windowed.
+[2023.09.17-17.16.22:109][457]LogViewport: Scene viewport resized to 1523x473, mode Windowed.
+[2023.09.17-17.16.22:126][458]LogViewport: Scene viewport resized to 1523x467, mode Windowed.
+[2023.09.17-17.16.22:141][459]LogViewport: Scene viewport resized to 1523x462, mode Windowed.
+[2023.09.17-17.16.22:158][460]LogViewport: Scene viewport resized to 1523x456, mode Windowed.
+[2023.09.17-17.16.22:176][461]LogViewport: Scene viewport resized to 1523x451, mode Windowed.
+[2023.09.17-17.16.22:193][462]LogViewport: Scene viewport resized to 1523x449, mode Windowed.
+[2023.09.17-17.16.22:210][463]LogViewport: Scene viewport resized to 1523x447, mode Windowed.
+[2023.09.17-17.16.22:226][464]LogViewport: Scene viewport resized to 1523x446, mode Windowed.
+[2023.09.17-17.16.22:477][479]LogViewport: Scene viewport resized to 1523x445, mode Windowed.
+[2023.09.17-17.16.22:536][481]LogViewport: Scene viewport resized to 1523x454, mode Windowed.
+[2023.09.17-17.16.22:548][482]LogViewport: Scene viewport resized to 1523x479, mode Windowed.
+[2023.09.17-17.16.22:566][483]LogViewport: Scene viewport resized to 1523x492, mode Windowed.
+[2023.09.17-17.16.22:583][484]LogViewport: Scene viewport resized to 1523x507, mode Windowed.
+[2023.09.17-17.16.23:227][516]LogViewport: Scene viewport resized to 1267x405, mode Windowed.
+[2023.09.17-17.16.25:428][613]LogViewport: Scene viewport resized to 1523x507, mode Windowed.
+[2023.09.17-17.16.27:715][743]LogViewport: Scene viewport resized to 1523x513, mode Windowed.
+[2023.09.17-17.16.27:733][744]LogViewport: Scene viewport resized to 1523x545, mode Windowed.
+[2023.09.17-17.16.27:781][745]LogViewport: Scene viewport resized to 1523x592, mode Windowed.
+[2023.09.17-17.16.27:803][746]LogViewport: Scene viewport resized to 1523x606, mode Windowed.
+[2023.09.17-17.16.27:824][747]LogViewport: Scene viewport resized to 1523x613, mode Windowed.
+[2023.09.17-17.16.27:842][748]LogViewport: Scene viewport resized to 1523x616, mode Windowed.
+[2023.09.17-17.16.27:859][749]LogViewport: Scene viewport resized to 1523x621, mode Windowed.
+[2023.09.17-17.16.27:877][750]LogViewport: Scene viewport resized to 1523x622, mode Windowed.
+[2023.09.17-17.16.27:894][751]LogViewport: Scene viewport resized to 1523x624, mode Windowed.
+[2023.09.17-17.16.27:910][752]LogViewport: Scene viewport resized to 1523x627, mode Windowed.
+[2023.09.17-17.16.27:927][753]LogViewport: Scene viewport resized to 1523x628, mode Windowed.
+[2023.09.17-17.16.27:943][754]LogViewport: Scene viewport resized to 1523x630, mode Windowed.
+[2023.09.17-17.16.28:012][758]LogViewport: Scene viewport resized to 1523x636, mode Windowed.
+[2023.09.17-17.16.28:027][759]LogViewport: Scene viewport resized to 1523x637, mode Windowed.
+[2023.09.17-17.16.28:071][760]LogViewport: Scene viewport resized to 1523x640, mode Windowed.
+[2023.09.17-17.16.28:127][763]LogViewport: Scene viewport resized to 1523x641, mode Windowed.
+[2023.09.17-17.16.28:142][764]LogViewport: Scene viewport resized to 1523x645, mode Windowed.
+[2023.09.17-17.16.28:178][765]LogViewport: Scene viewport resized to 1523x701, mode Windowed.
+[2023.09.17-17.16.28:198][766]LogViewport: Scene viewport resized to 1523x764, mode Windowed.
+[2023.09.17-17.16.28:219][767]LogViewport: Scene viewport resized to 1523x792, mode Windowed.
+[2023.09.17-17.16.28:240][768]LogViewport: Scene viewport resized to 1523x801, mode Windowed.
+[2023.09.17-17.16.28:273][769]LogViewport: Scene viewport resized to 1523x804, mode Windowed.
+[2023.09.17-17.16.28:303][770]LogViewport: Scene viewport resized to 1523x806, mode Windowed.
+[2023.09.17-17.16.28:792][798]LogViewport: Scene viewport resized to 1523x805, mode Windowed.
+[2023.09.17-17.16.28:808][799]LogViewport: Scene viewport resized to 1523x803, mode Windowed.
+[2023.09.17-17.16.28:886][800]LogViewport: Scene viewport resized to 1523x784, mode Windowed.
+[2023.09.17-17.16.28:909][801]LogViewport: Scene viewport resized to 1523x780, mode Windowed.
+[2023.09.17-17.16.28:928][802]LogViewport: Scene viewport resized to 1523x779, mode Windowed.
+[2023.09.17-17.16.28:965][804]LogViewport: Scene viewport resized to 1523x778, mode Windowed.
+[2023.09.17-17.16.28:997][806]LogViewport: Scene viewport resized to 1523x777, mode Windowed.
+[2023.09.17-17.16.29:014][807]LogViewport: Scene viewport resized to 1523x774, mode Windowed.
+[2023.09.17-17.16.32:726][ 28]LogDerivedDataCache: C:/Users/theda/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.133 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1005 files in 1800 folders with total size 80 MiB.
+[2023.09.17-17.16.40:342][484]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.09.17-17.16.40:342][484]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.09.17-17.16.40:360][485]LogNet: Browse: /Game/Maps/Level1
+[2023.09.17-17.16.40:360][485]LogLoad: LoadMap: /Game/Maps/Level1
+[2023.09.17-17.16.40:360][485]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2023.09.17-17.16.40:361][485]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.16.40:361][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.16.40:392][485]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.17-17.16.40:395][485]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.09.17-17.16.40:423][485]LogAudio: Display: Audio Device (ID: 3) registered with world 'Level1'.
+[2023.09.17-17.16.40:423][485]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.16.40:423][485]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.16.40:423][485]LogAIModule: Creating AISystem for world Level1
+[2023.09.17-17.16.40:424][485]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2023.09.17-17.16.40:424][485]LogLoad: Game class is 'PlayingGameMode_C'
+[2023.09.17-17.16.40:443][485]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2023.09.17-11.16.40
+[2023.09.17-17.16.40:443][485]LogWorld: Bringing up level for play took: 0.019581
+[2023.09.17-17.16.40:447][485]LogLoad: Took 0.087224 seconds to LoadMap(/Game/Maps/Level1)
+[2023.09.17-17.16.40:460][485]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Electronic_Hollow_main'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.09.17-17.17.03:295][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.17.03:295][852]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2023.09.17-17.17.03:295][852]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.17.03:297][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.17.03:306][852]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.17-17.17.03:310][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.17.03:315][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.17.03:315][852]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.09.17-17.17.03:316][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.09.17-17.17.03:318][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.09.17-17.17.03:328][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.09.17-17.17.03:408][854]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2023.09.17-17.17.21:619][942]LogViewport: Scene viewport resized to 1523x754, mode Windowed.
+[2023.09.17-17.17.21:635][943]LogViewport: Scene viewport resized to 1523x741, mode Windowed.
+[2023.09.17-17.17.21:660][944]LogViewport: Scene viewport resized to 1523x718, mode Windowed.
+[2023.09.17-17.17.21:683][945]LogViewport: Scene viewport resized to 1523x700, mode Windowed.
+[2023.09.17-17.17.21:708][946]LogViewport: Scene viewport resized to 1523x674, mode Windowed.
+[2023.09.17-17.17.21:730][947]LogViewport: Scene viewport resized to 1523x652, mode Windowed.
+[2023.09.17-17.17.21:755][948]LogViewport: Scene viewport resized to 1523x624, mode Windowed.
+[2023.09.17-17.17.21:781][949]LogViewport: Scene viewport resized to 1523x601, mode Windowed.
+[2023.09.17-17.17.21:803][950]LogViewport: Scene viewport resized to 1523x589, mode Windowed.
+[2023.09.17-17.17.21:827][951]LogViewport: Scene viewport resized to 1523x584, mode Windowed.
+[2023.09.17-17.17.21:849][952]LogViewport: Scene viewport resized to 1523x582, mode Windowed.
+[2023.09.17-17.17.22:306][979]LogViewport: Scene viewport resized to 1523x576, mode Windowed.
+[2023.09.17-17.17.22:326][980]LogViewport: Scene viewport resized to 1523x561, mode Windowed.
+[2023.09.17-17.17.22:353][981]LogViewport: Scene viewport resized to 1523x545, mode Windowed.
+[2023.09.17-17.17.22:376][982]LogViewport: Scene viewport resized to 1523x542, mode Windowed.
+[2023.09.17-17.17.22:398][983]LogViewport: Scene viewport resized to 1523x541, mode Windowed.
+[2023.09.17-17.17.23:871][ 71]LogViewport: Scene viewport resized to 1523x544, mode Windowed.
+[2023.09.17-17.17.24:271][ 95]LogViewport: Scene viewport resized to 1523x547, mode Windowed.
+[2023.09.17-17.17.24:288][ 96]LogViewport: Scene viewport resized to 1523x549, mode Windowed.
+[2023.09.17-17.17.24:309][ 97]LogViewport: Scene viewport resized to 1523x556, mode Windowed.
+[2023.09.17-17.17.24:331][ 98]LogViewport: Scene viewport resized to 1523x561, mode Windowed.
+[2023.09.17-17.17.24:352][ 99]LogViewport: Scene viewport resized to 1523x564, mode Windowed.
+[2023.09.17-17.17.24:375][100]LogViewport: Scene viewport resized to 1523x567, mode Windowed.
+[2023.09.17-17.17.24:396][101]LogViewport: Scene viewport resized to 1523x569, mode Windowed.
+[2023.09.17-17.17.24:417][102]LogViewport: Scene viewport resized to 1523x571, mode Windowed.
+[2023.09.17-17.17.24:440][103]LogViewport: Scene viewport resized to 1523x574, mode Windowed.
+[2023.09.17-17.17.24:462][104]LogViewport: Scene viewport resized to 1523x576, mode Windowed.
+[2023.09.17-17.17.24:501][106]LogViewport: Scene viewport resized to 1523x577, mode Windowed.
+[2023.09.17-17.17.24:534][108]LogViewport: Scene viewport resized to 1523x578, mode Windowed.
+[2023.09.17-17.17.24:934][132]LogViewport: Scene viewport resized to 1523x575, mode Windowed.
+[2023.09.17-17.17.24:951][133]LogViewport: Scene viewport resized to 1523x571, mode Windowed.
+[2023.09.17-17.17.24:974][134]LogViewport: Scene viewport resized to 1523x570, mode Windowed.
+[2023.09.17-17.17.24:995][135]LogViewport: Scene viewport resized to 1523x568, mode Windowed.
+[2023.09.17-17.17.25:015][136]LogViewport: Scene viewport resized to 1523x567, mode Windowed.
+[2023.09.17-17.17.25:037][137]LogViewport: Scene viewport resized to 1523x563, mode Windowed.
+[2023.09.17-17.17.25:055][138]LogViewport: Scene viewport resized to 1523x561, mode Windowed.
+[2023.09.17-17.17.25:076][139]LogViewport: Scene viewport resized to 1523x559, mode Windowed.
+[2023.09.17-17.17.25:265][150]LogViewport: Scene viewport resized to 1523x558, mode Windowed.
+[2023.09.17-17.17.25:400][158]LogViewport: Scene viewport resized to 1523x559, mode Windowed.
+[2023.09.17-17.17.25:418][159]LogViewport: Scene viewport resized to 1523x563, mode Windowed.
+[2023.09.17-17.17.26:897][245]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.09.17-17.17.27:030][245]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.17.27:044][245]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Level1.Level1
+[2023.09.17-17.17.27:044][245]Cmd: MAP LOAD FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.17-17.17.27:044][245]LightingResults: New page: Lighting Build
+[2023.09.17-17.17.27:044][245]LoadErrors: New page: Loading map: Level1.umap
+[2023.09.17-17.17.27:064][245]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.17.27:064][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.17.27:064][245]MapCheck: New page: Map Check
+[2023.09.17-17.17.27:064][245]LightingResults: New page: Lighting Build
+[2023.09.17-17.17.27:072][245]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.17-17.17.27:073][245]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.09.17-17.17.27:074][245]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.17.27:075][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.17.27:080][245]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.09.17-17.17.27:084][245]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.09.17-17.17.27:096][245]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level1'.
+[2023.09.17-17.17.27:096][245]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.17.27:097][245]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.17.27:097][245]LogAIModule: Creating AISystem for world Level1
+[2023.09.17-17.17.27:125][245]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.17-17.17.27:134][245]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.09.17-17.17.27:138][245]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.17-17.17.27:138][245]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.121ms to complete.
+[2023.09.17-17.17.28:924][343]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.09.17-17.17.29:070][343]LogStaticMesh: Display: Building static mesh house_type10...
+[2023.09.17-17.17.29:070][343]LogStaticMesh: Display: Building static mesh house_type15...
+[2023.09.17-17.17.29:072][343]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.17.29:079][343]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Level2.Level2
+[2023.09.17-17.17.29:079][343]Cmd: MAP LOAD FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.17-17.17.29:079][343]LightingResults: New page: Lighting Build
+[2023.09.17-17.17.29:079][343]LoadErrors: New page: Loading map: Level2.umap
+[2023.09.17-17.17.29:092][343]LogStaticMesh: Built static mesh [0.02s] /Game/Environment/Houses/house_type15.house_type15
+[2023.09.17-17.17.29:104][343]LogStaticMesh: Built static mesh [0.03s] /Game/Environment/Houses/house_type10.house_type10
+[2023.09.17-17.17.29:105][343]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.17.29:105][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.17.29:105][343]MapCheck: New page: Map Check
+[2023.09.17-17.17.29:105][343]LightingResults: New page: Lighting Build
+[2023.09.17-17.17.29:110][343]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.17-17.17.29:113][343]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.09.17-17.17.29:150][343]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.17.29:150][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.17.29:159][343]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.09.17-17.17.29:165][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.09.17-17.17.29:173][343]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level2'.
+[2023.09.17-17.17.29:173][343]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.17.29:174][343]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.17.29:174][343]LogAIModule: Creating AISystem for world Level2
+[2023.09.17-17.17.29:190][343]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.17-17.17.29:197][343]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.09.17-17.17.29:202][343]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.17-17.17.29:202][343]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.113ms to complete.
+[2023.09.17-17.17.45:291][296]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.17-17.17.45:300][296]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.17-17.17.45:300][296]PIE: New page: PIE session: Level2 (Sep 17, 2023, 5:17:45 AM)
+[2023.09.17-17.17.45:324][296]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2023.09.17-17.17.45:336][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011620s)
+[2023.09.17-17.17.45:336][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.011696s)
+[2023.09.17-17.17.45:342][296]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.09.17-17.17.45:344][296]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.17.45:344][296]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.17.45:345][296]LogAIModule: Creating AISystem for world Level2
+[2023.09.17-17.17.45:346][296]LogPlayLevel: PIE: World Init took: (0.002596s)
+[2023.09.17-17.17.45:346][296]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.09.17-17.17.45:346][296]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.17-17.17.45:346][296]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.17-17.17.45:346][296]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.17-17.17.45:346][296]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.17-17.17.45:346][296]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.17-17.17.45:346][296]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.17-17.17.45:346][296]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.17-17.17.45:346][296]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.17-17.17.45:347][296]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.17-17.17.45:347][296]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.17-17.17.45:347][296]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.17-17.17.45:354][296]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.17-17.17.45:381][296]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.09.17-17.17.45:382][296]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.17-17.17.45:382][296]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.17-17.17.45:382][296]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.17-17.17.45:385][296]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.09.17-17.17.45:385][296]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.09.17-17.17.45:388][296]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.09.17-17.17.45:388][296]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.09.17-17.17.45:388][296]LogInit: FAudioDevice initialized with ID 4.
+[2023.09.17-17.17.45:388][296]LogAudio: Display: Audio Device (ID: 4) registered with world 'Level2'.
+[2023.09.17-17.17.45:388][296]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.09.17-17.17.45:391][296]LogLoad: Game class is 'PlayingGameMode_C'
+[2023.09.17-17.17.45:396][296]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2023.09.17-11.17.45
+[2023.09.17-17.17.45:396][296]LogWorld: Bringing up level for play took: 0.005396
+[2023.09.17-17.17.45:399][296]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2023.09.17-17.17.45:405][296]PIE: Server logged in
+[2023.09.17-17.17.45:406][296]PIE: Play in editor total start time 0.106 seconds.
+[2023.09.17-17.17.45:412][296]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Electronic_Routine_main'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.09.17-17.18.06:074][529]Set new viewmode: Wireframe
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: ================================================
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Total job queries 148, among them cache hits 114 (77.03%)
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Tracking 25 distinct input hashes that result in 18 distinct outputs (72.00%)
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: RAM used: 491.58 KiB of 819.20 MiB budget. Usage: 0.06%
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Shaders Compiled: 13
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Jobs assigned 21, completed 13 (61.90%)
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Average time worker was idle: 118.13 s
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.43 s
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Job execution time: average 0.53 s, max 0.88 s
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Job life time (pending + execution): average 0.59 s, max 0.94
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Shader code size: average 32.6 KiB, min 4.328 KiB, max 71.035 KiB
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.27 s
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Jobs were issued in 21 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Average processing rate: 5.72 jobs/sec
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Total thread time: 3.596 s
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Total thread preprocess time: 0.492 s
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Percentage time preprocessing: 13.68%
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Effective parallelization: 1.58 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.34 sec, max 0.40 sec, min 0.29 sec)
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.34 sec, max 0.36 sec, min 0.31 sec)
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    2 times, average 0.33 sec, max 0.36 sec, min 0.30 sec)
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    3 times, average 0.16 sec, max 0.19 sec, min 0.13 sec)
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 28.53% of total time (compiled    3 times, average 0.34 sec, max 0.40 sec, min 0.29 sec)
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 28.40% of total time (compiled    3 times, average 0.34 sec, max 0.36 sec, min 0.31 sec)
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display:                                                  FHitProxyVS - 18.52% of total time (compiled    2 times, average 0.33 sec, max 0.36 sec, min 0.30 sec)
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display:                                                  FHitProxyPS - 13.20% of total time (compiled    3 times, average 0.16 sec, max 0.19 sec, min 0.13 sec)
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.79% of total time (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2023.09.17-17.18.06:612][540]LogShaderCompilers: Display: ================================================
+[2023.09.17-17.18.07:678][585]Set new viewmode: Wireframe
+[2023.09.17-17.18.08:775][648]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.18.08:775][648]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level2
+[2023.09.17-17.18.08:775][648]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.18.08:776][648]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.18.08:782][648]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.17-17.18.08:785][648]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.18.08:790][648]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.18.08:791][648]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.09.17-17.18.08:791][648]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.09.17-17.18.08:796][648]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.09.17-17.18.08:809][648]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.09.17-17.18.08:851][649]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2023.09.17-17.18.10:296][734]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.17-17.18.10:305][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.17-17.18.10:305][734]PIE: New page: PIE session: Level2 (Sep 17, 2023, 5:18:10 AM)
+[2023.09.17-17.18.10:305][734]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2023.09.17-17.18.10:312][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006842s)
+[2023.09.17-17.18.10:312][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.006888s)
+[2023.09.17-17.18.10:314][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.09.17-17.18.10:315][734]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.18.10:315][734]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.18.10:316][734]LogAIModule: Creating AISystem for world Level2
+[2023.09.17-17.18.10:316][734]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2023.09.17-17.18.10:316][734]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.09.17-17.18.10:316][734]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.17-17.18.10:316][734]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.17-17.18.10:316][734]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.17-17.18.10:316][734]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.17-17.18.10:316][734]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.17-17.18.10:316][734]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.17-17.18.10:316][734]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.17-17.18.10:316][734]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.17-17.18.10:317][734]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.17-17.18.10:317][734]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.17-17.18.10:317][734]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.17-17.18.10:319][734]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.17-17.18.10:335][734]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.09.17-17.18.10:336][734]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.17-17.18.10:336][734]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.17-17.18.10:336][734]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.17-17.18.10:337][734]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.09.17-17.18.10:337][734]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.09.17-17.18.10:339][734]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.09.17-17.18.10:339][734]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.09.17-17.18.10:339][734]LogInit: FAudioDevice initialized with ID 5.
+[2023.09.17-17.18.10:339][734]LogAudio: Display: Audio Device (ID: 5) registered with world 'Level2'.
+[2023.09.17-17.18.10:339][734]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.09.17-17.18.10:341][734]LogLoad: Game class is 'PlayingGameMode_C'
+[2023.09.17-17.18.10:347][734]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2023.09.17-11.18.10
+[2023.09.17-17.18.10:347][734]LogWorld: Bringing up level for play took: 0.004615
+[2023.09.17-17.18.10:349][734]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2023.09.17-17.18.10:352][734]PIE: Server logged in
+[2023.09.17-17.18.10:352][734]PIE: Play in editor total start time 0.048 seconds.
+[2023.09.17-17.18.10:355][734]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Electronic_Hollow_main'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.09.17-17.18.34:466][172]LogNet: Browse: /Game/Maps/Level2
+[2023.09.17-17.18.34:467][172]LogLoad: LoadMap: /Game/Maps/Level2
+[2023.09.17-17.18.34:467][172]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level2
+[2023.09.17-17.18.34:467][172]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.18.34:468][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.18.34:523][172]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.17-17.18.34:527][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.09.17-17.18.34:530][172]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2023.09.17-17.18.34:543][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012630s)
+[2023.09.17-17.18.34:543][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.012727s)
+[2023.09.17-17.18.34:543][172]LogAudio: Display: Audio Device (ID: 5) registered with world 'Level2'.
+[2023.09.17-17.18.34:543][172]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.18.34:543][172]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.18.34:545][172]LogAIModule: Creating AISystem for world Level2
+[2023.09.17-17.18.34:545][172]LogPlayLevel: PIE: World Init took: (0.001299s)
+[2023.09.17-17.18.34:545][172]LogLoad: Game class is 'PlayingGameMode_C'
+[2023.09.17-17.18.34:549][172]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2023.09.17-11.18.34
+[2023.09.17-17.18.34:549][172]LogWorld: Bringing up level for play took: 0.003903
+[2023.09.17-17.18.34:552][172]LogLoad: Took 0.085283 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level2)
+[2023.09.17-17.18.34:557][172]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Electronic_Hollow_main'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.09.17-17.18.47:285][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.18.47:285][934]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level2
+[2023.09.17-17.18.47:285][934]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.18.47:286][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.18.47:292][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.17-17.18.47:295][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.18.47:302][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.18.47:303][934]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.09.17-17.18.47:303][934]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.09.17-17.18.47:306][934]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.09.17-17.18.47:316][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.09.17-17.18.47:378][936]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.09.17-17.19.51:096][727]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.19.51:212][730]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.20.00:595][276]Cmd: POLY SELECT ADJACENT WALLS
+[2023.09.17-17.20.01:146][309]Cmd: POLY SELECT ALL
+[2023.09.17-17.20.01:611][337]Cmd: POLY SELECT MEMORY UNION
+[2023.09.17-17.20.11:517][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.09.17-17.20.11:660][923]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.20.11:673][923]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Level1.Level1
+[2023.09.17-17.20.11:673][923]Cmd: MAP LOAD FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.17-17.20.11:673][923]LightingResults: New page: Lighting Build
+[2023.09.17-17.20.11:673][923]LoadErrors: New page: Loading map: Level1.umap
+[2023.09.17-17.20.11:697][923]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.20.11:697][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.20.11:697][923]MapCheck: New page: Map Check
+[2023.09.17-17.20.11:697][923]LightingResults: New page: Lighting Build
+[2023.09.17-17.20.11:705][923]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.17-17.20.11:709][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.09.17-17.20.11:710][923]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.20.11:711][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.20.11:717][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.09.17-17.20.11:721][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.09.17-17.20.11:733][923]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level1'.
+[2023.09.17-17.20.11:733][923]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.20.11:733][923]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.20.11:734][923]LogAIModule: Creating AISystem for world Level1
+[2023.09.17-17.20.11:764][923]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.17-17.20.11:771][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.09.17-17.20.11:776][923]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.17-17.20.11:776][923]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.136ms to complete.
+[2023.09.17-17.22.53:286][270]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: ================================================
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Total job queries 184, among them cache hits 142 (77.17%)
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Tracking 42 distinct input hashes that result in 28 distinct outputs (66.67%)
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: RAM used: 849.80 KiB of 819.20 MiB budget. Usage: 0.10%
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Shaders Compiled: 22
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Jobs assigned 22, completed 22 (100%)
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Average time worker was idle: 109.69 s
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.64 s
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Job execution time: average 0.54 s, max 0.88 s
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Job life time (pending + execution): average 0.64 s, max 0.94
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Shader code size: average 31.153 KiB, min 3.559 KiB, max 71.035 KiB
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.62 s
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Jobs were issued in 22 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Average processing rate: 8.39 jobs/sec
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Total thread time: 6.502 s
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Total thread preprocess time: 0.797 s
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Percentage time preprocessing: 12.25%
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Effective parallelization: 2.48 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.35 sec, max 0.40 sec, min 0.29 sec)
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    5 times, average 0.33 sec, max 0.36 sec, min 0.30 sec)
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    4 times, average 0.32 sec, max 0.36 sec, min 0.28 sec)
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    1 times, average 0.31 sec, max 0.31 sec, min 0.31 sec)
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 26.56% of total time (compiled    5 times, average 0.35 sec, max 0.40 sec, min 0.29 sec)
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 25.50% of total time (compiled    5 times, average 0.33 sec, max 0.36 sec, min 0.30 sec)
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display:                                                  FHitProxyVS - 19.57% of total time (compiled    4 times, average 0.32 sec, max 0.36 sec, min 0.28 sec)
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display:                                                  FHitProxyPS - 8.57% of total time (compiled    4 times, average 0.14 sec, max 0.19 sec, min 0.08 sec)
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display:                                                  FVelocityVS - 5.04% of total time (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2023.09.17-17.22.53:371][271]LogShaderCompilers: Display: ================================================
+[2023.09.17-17.22.57:039][487]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.22.57:171][491]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.22.57:198][492]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.23.15:577][571]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.17-17.23.15:607][571]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.17-17.23.15:616][572]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.17-17.23.19:029][777]LogContentBrowser: Attempting asset rename: NewFolder -> buildings
+[2023.09.17-17.23.19:029][777]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.17-17.23.48:735][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\low_buildingK.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.48:766][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\low_buildingL.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.48:797][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\low_buildingM.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.48:833][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\low_buildingN.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.48:875][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\large_buildingA.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.48:933][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\large_buildingB.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.48:970][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\large_buildingC.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.49:027][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\large_buildingD.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.49:080][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\large_buildingE.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.49:119][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\large_buildingF.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.49:154][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\large_buildingG.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.49:204][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\low_buildingA.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.49:262][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\low_buildingB.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.49:318][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\low_buildingC.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.49:359][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\low_buildingD.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.49:412][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\low_buildingE.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.49:461][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\low_buildingF.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.49:510][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\low_buildingG.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.49:560][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\low_buildingH.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.49:608][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\low_buildingI.dae'. Unknown extension 'dae'.
+[2023.09.17-17.23.49:660][244]LogAssetTools: Warning: Failed to import 'C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\DAE format\low_buildingJ.dae'. Unknown extension 'dae'.
+[2023.09.17-17.24.37:953][102]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\skyscraperA.fbx)
+[2023.09.17-17.24.37:996][102]LogFbx: Loading FBX Scene from C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\skyscraperA.fbx
+[2023.09.17-17.24.38:013][102]LogFbx: FBX Scene Loaded Succesfully
+[2023.09.17-17.24.45:581][102]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.09.17-17.24.45:870][102]LogStaticMesh: Display: Building static mesh skyscraperA...
+[2023.09.17-17.24.45:890][102]LogStaticMesh: Built static mesh [0.02s] /Game/Environment/buildings/skyscraperA.skyscraperA
+[2023.09.17-17.24.45:912][102]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.09.17-17.24.46:047][102]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\skyscraperB.fbx)
+[2023.09.17-17.24.46:056][102]LogFbx: Loading FBX Scene from C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\skyscraperB.fbx
+[2023.09.17-17.24.46:063][102]LogFbx: FBX Scene Loaded Succesfully
+[2023.09.17-17.24.46:215][102]LogStaticMesh: Display: Building static mesh skyscraperB...
+[2023.09.17-17.24.46:249][102]LogStaticMesh: Built static mesh [0.03s] /Game/Environment/buildings/skyscraperB.skyscraperB
+[2023.09.17-17.24.46:265][102]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.09.17-17.24.46:278][102]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\skyscraperC.fbx)
+[2023.09.17-17.24.46:286][102]LogFbx: Loading FBX Scene from C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\skyscraperC.fbx
+[2023.09.17-17.24.46:295][102]LogFbx: FBX Scene Loaded Succesfully
+[2023.09.17-17.24.46:423][102]LogStaticMesh: Display: Building static mesh skyscraperC...
+[2023.09.17-17.24.46:447][102]LogStaticMesh: Built static mesh [0.02s] /Game/Environment/buildings/skyscraperC.skyscraperC
+[2023.09.17-17.24.46:463][102]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.09.17-17.24.46:474][102]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\skyscraperD.fbx)
+[2023.09.17-17.24.46:483][102]LogFbx: Loading FBX Scene from C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\skyscraperD.fbx
+[2023.09.17-17.24.46:493][102]LogFbx: FBX Scene Loaded Succesfully
+[2023.09.17-17.24.46:643][102]LogStaticMesh: Display: Building static mesh skyscraperD...
+[2023.09.17-17.24.46:675][102]LogStaticMesh: Built static mesh [0.03s] /Game/Environment/buildings/skyscraperD.skyscraperD
+[2023.09.17-17.24.46:689][102]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.09.17-17.24.46:702][102]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\skyscraperE.fbx)
+[2023.09.17-17.24.46:710][102]LogFbx: Loading FBX Scene from C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\skyscraperE.fbx
+[2023.09.17-17.24.46:721][102]LogFbx: FBX Scene Loaded Succesfully
+[2023.09.17-17.24.46:904][102]LogStaticMesh: Display: Building static mesh skyscraperE...
+[2023.09.17-17.24.46:945][102]LogStaticMesh: Built static mesh [0.04s] /Game/Environment/buildings/skyscraperE.skyscraperE
+[2023.09.17-17.24.46:947][102]LogStaticMesh: Warning: skyscraperE has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.17-17.24.46:947][102]LogStaticMesh: Warning: skyscraperE has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.17-17.24.46:960][102]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.09.17-17.24.46:960][102]FBXImport: Warning: skyscraperE has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.17-17.24.46:960][102]FBXImport: Warning: skyscraperE has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.17-17.24.46:972][102]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\skyscraperF.fbx)
+[2023.09.17-17.24.46:978][102]LogFbx: Loading FBX Scene from C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\skyscraperF.fbx
+[2023.09.17-17.24.46:986][102]LogFbx: FBX Scene Loaded Succesfully
+[2023.09.17-17.24.47:178][102]LogStaticMesh: Display: Building static mesh skyscraperF...
+[2023.09.17-17.24.47:201][102]LogStaticMesh: Built static mesh [0.02s] /Game/Environment/buildings/skyscraperF.skyscraperF
+[2023.09.17-17.24.47:217][102]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.09.17-17.24.51:437][326]LogSlate: Window 'Message Log' being destroyed
+[2023.09.17-17.24.51:446][326]LogSlate: Window 'Message Log' being destroyed
+[2023.09.17-17.24.59:706][801]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperA.skyscraperA
+[2023.09.17-17.24.59:707][801]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperA.skyscraperA
+[2023.09.17-17.24.59:708][801]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/skyscraperA.skyscraperA as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_6
+[2023.09.17-17.25.00:414][843]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperA.skyscraperA
+[2023.09.17-17.25.00:414][843]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperA.skyscraperA
+[2023.09.17-17.25.00:416][843]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/skyscraperA.skyscraperA as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_7
+[2023.09.17-17.25.05:314][128]Cmd: DELETE
+[2023.09.17-17.25.05:315][128]Cmd: ACTOR DELETE
+[2023.09.17-17.25.05:323][128]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.17-17.25.05:329][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.09.17-17.25.05:331][128]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2023.09.17-17.25.09:481][350]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperA.skyscraperA
+[2023.09.17-17.25.09:481][350]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperA.skyscraperA
+[2023.09.17-17.25.09:482][350]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/skyscraperA.skyscraperA as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_8
+[2023.09.17-17.25.10:556][414]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperA.skyscraperA
+[2023.09.17-17.25.10:556][414]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperA.skyscraperA
+[2023.09.17-17.25.10:557][414]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/skyscraperA.skyscraperA as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_10
+[2023.09.17-17.26.15:888][243]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperB.skyscraperB
+[2023.09.17-17.26.15:888][243]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperB.skyscraperB
+[2023.09.17-17.26.15:889][243]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/skyscraperB.skyscraperB as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_12
+[2023.09.17-17.26.17:076][313]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperB.skyscraperB
+[2023.09.17-17.26.17:076][313]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperB.skyscraperB
+[2023.09.17-17.26.17:078][313]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/skyscraperB.skyscraperB as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_14
+[2023.09.17-17.26.42:137][785]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperC.skyscraperC
+[2023.09.17-17.26.42:137][785]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperC.skyscraperC
+[2023.09.17-17.26.42:138][785]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/skyscraperC.skyscraperC as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_25
+[2023.09.17-17.26.42:886][829]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperC.skyscraperC
+[2023.09.17-17.26.42:886][829]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperC.skyscraperC
+[2023.09.17-17.26.42:887][829]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/skyscraperC.skyscraperC as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_29
+[2023.09.17-17.27.45:966][582]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperD.skyscraperD
+[2023.09.17-17.27.45:966][582]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperD.skyscraperD
+[2023.09.17-17.27.45:967][582]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/skyscraperD.skyscraperD as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_31
+[2023.09.17-17.27.47:052][646]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperD.skyscraperD
+[2023.09.17-17.27.47:052][646]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperD.skyscraperD
+[2023.09.17-17.27.47:053][646]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/skyscraperD.skyscraperD as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_33
+[2023.09.17-17.27.58:898][334]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.09.17-17.27.58:905][334]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.17-17.27.59:075][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.17-17.27.59:107][334]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.09.17-17.27.59:115][334]LogPackageLocalizationCache: Processed 47 localized package path(s) for 1 prioritized culture(s) in 0.006309 seconds
+[2023.09.17-17.27.59:161][334]LogSavePackage: Moving output files for package: /Game/Maps/Level1
+[2023.09.17-17.27.59:161][334]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/Level128F257DE4326CD28D03F82845BEB5CC5.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Maps/Level1.umap'
+[2023.09.17-17.27.59:169][334]LogFileHelpers: Saving map 'Level1' took 0.094
+[2023.09.17-17.27.59:215][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/buildings/skyscraperA" FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/skyscraperA.uasset" SILENT=true
+[2023.09.17-17.27.59:221][334]LogSavePackage: Moving output files for package: /Game/Environment/buildings/skyscraperA
+[2023.09.17-17.27.59:221][334]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/skyscraperAD4359F414047C5BC6C8B33AFA62B5093.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/skyscraperA.uasset'
+[2023.09.17-17.28.01:241][334]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2023.09.17-17.28.01:471][334]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.229326s
+[2023.09.17-17.28.02:282][334]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 3.043419s (1.043419s overbudget)
+[2023.09.17-17.28.02:287][334]LogShaderCompilers: Display: ================================================
+[2023.09.17-17.28.02:287][334]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.17-17.28.02:287][334]LogShaderCompilers: Display: Total job queries 244, among them cache hits 190 (77.87%)
+[2023.09.17-17.28.02:287][334]LogShaderCompilers: Display: Tracking 54 distinct input hashes that result in 37 distinct outputs (68.52%)
+[2023.09.17-17.28.02:287][334]LogShaderCompilers: Display: RAM used: 1.13 MiB of 819.20 MiB budget. Usage: 0.14%
+[2023.09.17-17.28.02:287][334]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.17-17.28.02:287][334]LogShaderCompilers: Display: Shaders Compiled: 34
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display: Jobs assigned 34, completed 34 (100%)
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display: Average time worker was idle: 241.37 s
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display: Time job spent in pending queue: average 0.38 s, longest 2.73 s
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display: Job execution time: average 0.98 s, max 2.62 s
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display: Job life time (pending + execution): average 1.36 s, max 3.03
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display: Shader code size: average 35.622 KiB, min 3.559 KiB, max 71.035 KiB
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.66 s
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display: Jobs were issued in 34 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display: Average processing rate: 6.01 jobs/sec
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display: Total thread time: 19.705 s
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display: Total thread preprocess time: 10.354 s
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display: Percentage time preprocessing: 52.54%
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display: Effective parallelization: 3.48 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 1.64 sec, max 1.64 sec, min 1.64 sec)
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 1.64 sec, max 1.64 sec, min 1.64 sec)
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 1.62 sec, max 1.62 sec, min 1.62 sec)
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 1.62 sec, max 1.62 sec, min 1.62 sec)
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 1.62 sec, max 1.62 sec, min 1.62 sec)
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.76% of total time (compiled    5 times, average 0.35 sec, max 0.40 sec, min 0.29 sec)
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.42% of total time (compiled    5 times, average 0.33 sec, max 0.36 sec, min 0.30 sec)
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 8.34% of total time (compiled    1 times, average 1.64 sec, max 1.64 sec, min 1.64 sec)
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 8.34% of total time (compiled    1 times, average 1.64 sec, max 1.64 sec, min 1.64 sec)
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 8.25% of total time (compiled    1 times, average 1.62 sec, max 1.62 sec, min 1.62 sec)
+[2023.09.17-17.28.02:288][334]LogShaderCompilers: Display: ================================================
+[2023.09.17-17.28.02:315][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/buildings/border" FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/border.uasset" SILENT=true
+[2023.09.17-17.28.02:318][334]LogSavePackage: Moving output files for package: /Game/Environment/buildings/border
+[2023.09.17-17.28.02:318][334]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/borderF798015A4D0552633EB1739B7D0DD30D.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/border.uasset'
+[2023.09.17-17.28.02:360][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/buildings/door" FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/door.uasset" SILENT=true
+[2023.09.17-17.28.02:362][334]LogSavePackage: Moving output files for package: /Game/Environment/buildings/door
+[2023.09.17-17.28.02:362][334]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/doorD17E22394704BA12B18284B18A7EFA8C.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/door.uasset'
+[2023.09.17-17.28.02:401][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/buildings/_defaultMat" FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/_defaultMat.uasset" SILENT=true
+[2023.09.17-17.28.02:405][334]LogSavePackage: Moving output files for package: /Game/Environment/buildings/_defaultMat
+[2023.09.17-17.28.02:406][334]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/_defaultMat03D28B4F40D00452D1444D85F74B422B.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/_defaultMat.uasset'
+[2023.09.17-17.28.02:448][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/buildings/window" FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/window.uasset" SILENT=true
+[2023.09.17-17.28.02:450][334]LogSavePackage: Moving output files for package: /Game/Environment/buildings/window
+[2023.09.17-17.28.02:450][334]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/window3D47734B4D5B276F192B6DB648D29CC7.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/window.uasset'
+[2023.09.17-17.28.02:480][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/buildings/trim" FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/trim.uasset" SILENT=true
+[2023.09.17-17.28.02:483][334]LogSavePackage: Moving output files for package: /Game/Environment/buildings/trim
+[2023.09.17-17.28.02:483][334]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/trim2DFF12CA4897F67649074D8E9A658834.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/trim.uasset'
+[2023.09.17-17.28.02:505][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/buildings/skyscraperB" FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/skyscraperB.uasset" SILENT=true
+[2023.09.17-17.28.02:511][334]LogSavePackage: Moving output files for package: /Game/Environment/buildings/skyscraperB
+[2023.09.17-17.28.02:511][334]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/skyscraperBB764EFB043E36F381B8246B230865D94.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/skyscraperB.uasset'
+[2023.09.17-17.28.02:534][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/buildings/skyscraperC" FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/skyscraperC.uasset" SILENT=true
+[2023.09.17-17.28.02:545][334]LogSavePackage: Moving output files for package: /Game/Environment/buildings/skyscraperC
+[2023.09.17-17.28.02:545][334]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/skyscraperCBC73BA6D44321419F4F223913DB3E0C1.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/skyscraperC.uasset'
+[2023.09.17-17.28.02:583][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/buildings/roof" FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/roof.uasset" SILENT=true
+[2023.09.17-17.28.02:586][334]LogSavePackage: Moving output files for package: /Game/Environment/buildings/roof
+[2023.09.17-17.28.02:586][334]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/roof7A635A834EA63AD64E3233B98EC15FF0.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/roof.uasset'
+[2023.09.17-17.28.02:612][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/buildings/skyscraperD" FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/skyscraperD.uasset" SILENT=true
+[2023.09.17-17.28.02:620][334]LogSavePackage: Moving output files for package: /Game/Environment/buildings/skyscraperD
+[2023.09.17-17.28.02:620][334]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/skyscraperDCCDD8BD146CB49361A682BBA5A19B2C8.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/skyscraperD.uasset'
+[2023.09.17-17.28.02:648][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/buildings/skyscraperE" FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/skyscraperE.uasset" SILENT=true
+[2023.09.17-17.28.02:658][334]LogSavePackage: Moving output files for package: /Game/Environment/buildings/skyscraperE
+[2023.09.17-17.28.02:658][334]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/skyscraperE5811DC80466C6F57F743F8AA9A756DE3.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/skyscraperE.uasset'
+[2023.09.17-17.28.02:687][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/buildings/skyscraperF" FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/skyscraperF.uasset" SILENT=true
+[2023.09.17-17.28.02:698][334]LogSavePackage: Moving output files for package: /Game/Environment/buildings/skyscraperF
+[2023.09.17-17.28.02:698][334]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/skyscraperFDCBB97E24B18E92617E6809DDA8657B6.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/skyscraperF.uasset'
+[2023.09.17-17.28.02:712][334]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.80 sec
+[2023.09.17-17.28.02:719][334]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.17-17.28.02:720][334]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Level1.Level1
+[2023.09.17-17.28.02:720][334]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Environment/buildings/skyscraperA.skyscraperA
+[2023.09.17-17.28.02:720][334]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Environment/buildings/border.border
+[2023.09.17-17.28.02:720][334]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Environment/buildings/door.door
+[2023.09.17-17.28.02:720][334]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Environment/buildings/_defaultMat._defaultMat
+[2023.09.17-17.28.02:720][334]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Environment/buildings/window.window
+[2023.09.17-17.28.02:720][334]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Environment/buildings/trim.trim
+[2023.09.17-17.28.02:720][334]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Environment/buildings/skyscraperB.skyscraperB
+[2023.09.17-17.28.02:720][334]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Environment/buildings/skyscraperC.skyscraperC
+[2023.09.17-17.28.02:720][334]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Environment/buildings/roof.roof
+[2023.09.17-17.28.02:720][334]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Environment/buildings/skyscraperD.skyscraperD
+[2023.09.17-17.28.02:720][334]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Environment/buildings/skyscraperE.skyscraperE
+[2023.09.17-17.28.02:720][334]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Environment/buildings/skyscraperF.skyscraperF
+[2023.09.17-17.28.06:839][549]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.17-17.28.06:977][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.17-17.28.07:011][549]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.09.17-17.28.07:059][549]LogSavePackage: Moving output files for package: /Game/Maps/Level1
+[2023.09.17-17.28.07:060][549]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/Level10BAB64BE4AC0E5B51DCA5B93CAD167F5.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Maps/Level1.umap'
+[2023.09.17-17.28.07:072][549]LogFileHelpers: Saving map 'Level1' took 0.095
+[2023.09.17-17.28.07:081][549]LogFileHelpers: InternalPromptForCheckoutAndSave took 241 ms (total: 4.04 sec)
+[2023.09.17-17.28.07:084][549]AssetCheck: New page: Asset Save: Level1
+[2023.09.17-17.28.07:084][549]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Level1.Level1
+[2023.09.17-17.28.08:441][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.09.17-17.28.20:753][315]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperE.skyscraperE
+[2023.09.17-17.28.20:753][315]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperE.skyscraperE
+[2023.09.17-17.28.20:754][315]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/skyscraperE.skyscraperE as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_40
+[2023.09.17-17.28.22:324][408]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperE.skyscraperE
+[2023.09.17-17.28.22:324][408]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperE.skyscraperE
+[2023.09.17-17.28.22:325][408]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/skyscraperE.skyscraperE as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_48
+[2023.09.17-17.28.37:561][296]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperF.skyscraperF
+[2023.09.17-17.28.37:561][296]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperF.skyscraperF
+[2023.09.17-17.28.37:561][296]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/skyscraperF.skyscraperF as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_49
+[2023.09.17-17.28.39:034][383]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperF.skyscraperF
+[2023.09.17-17.28.39:034][383]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/skyscraperF.skyscraperF
+[2023.09.17-17.28.39:036][383]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/skyscraperF.skyscraperF as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_51
+[2023.09.17-17.29.41:091][526]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\large_buildingA.fbx)
+[2023.09.17-17.29.41:106][526]LogFbx: Loading FBX Scene from C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\large_buildingA.fbx
+[2023.09.17-17.29.41:129][526]LogFbx: FBX Scene Loaded Succesfully
+[2023.09.17-17.29.42:849][526]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.09.17-17.29.43:051][526]LogStaticMesh: Display: Building static mesh large_buildingA...
+[2023.09.17-17.29.43:106][526]LogStaticMesh: Built static mesh [0.06s] /Game/Environment/buildings/large_buildingA.large_buildingA
+[2023.09.17-17.29.43:128][526]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.09.17-17.29.43:290][526]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\large_buildingB.fbx)
+[2023.09.17-17.29.43:298][526]LogFbx: Loading FBX Scene from C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\large_buildingB.fbx
+[2023.09.17-17.29.43:307][526]LogFbx: FBX Scene Loaded Succesfully
+[2023.09.17-17.29.43:493][526]LogStaticMesh: Display: Building static mesh large_buildingB...
+[2023.09.17-17.29.43:528][526]LogStaticMesh: Built static mesh [0.04s] /Game/Environment/buildings/large_buildingB.large_buildingB
+[2023.09.17-17.29.43:541][526]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.09.17-17.29.43:555][526]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\large_buildingC.fbx)
+[2023.09.17-17.29.43:564][526]LogFbx: Loading FBX Scene from C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\large_buildingC.fbx
+[2023.09.17-17.29.43:572][526]LogFbx: FBX Scene Loaded Succesfully
+[2023.09.17-17.29.43:718][526]LogStaticMesh: Display: Building static mesh large_buildingC...
+[2023.09.17-17.29.43:752][526]LogStaticMesh: Built static mesh [0.03s] /Game/Environment/buildings/large_buildingC.large_buildingC
+[2023.09.17-17.29.43:753][526]LogStaticMesh: Warning: large_buildingC has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.17-17.29.43:753][526]LogStaticMesh: Warning: large_buildingC has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.17-17.29.43:767][526]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.09.17-17.29.43:767][526]FBXImport: Warning: large_buildingC has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.09.17-17.29.43:767][526]FBXImport: Warning: large_buildingC has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.09.17-17.29.43:779][526]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\large_buildingD.fbx)
+[2023.09.17-17.29.43:787][526]LogFbx: Loading FBX Scene from C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\large_buildingD.fbx
+[2023.09.17-17.29.43:798][526]LogFbx: FBX Scene Loaded Succesfully
+[2023.09.17-17.29.43:955][526]LogStaticMesh: Display: Building static mesh large_buildingD...
+[2023.09.17-17.29.43:994][526]LogStaticMesh: Built static mesh [0.04s] /Game/Environment/buildings/large_buildingD.large_buildingD
+[2023.09.17-17.29.44:011][526]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.09.17-17.29.44:024][526]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\large_buildingE.fbx)
+[2023.09.17-17.29.44:033][526]LogFbx: Loading FBX Scene from C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\large_buildingE.fbx
+[2023.09.17-17.29.44:047][526]LogFbx: FBX Scene Loaded Succesfully
+[2023.09.17-17.29.44:233][526]LogStaticMesh: Display: Building static mesh large_buildingE...
+[2023.09.17-17.29.44:280][526]LogStaticMesh: Built static mesh [0.05s] /Game/Environment/buildings/large_buildingE.large_buildingE
+[2023.09.17-17.29.44:298][526]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.09.17-17.29.44:311][526]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\large_buildingF.fbx)
+[2023.09.17-17.29.44:319][526]LogFbx: Loading FBX Scene from C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\large_buildingF.fbx
+[2023.09.17-17.29.44:330][526]LogFbx: FBX Scene Loaded Succesfully
+[2023.09.17-17.29.44:501][526]LogStaticMesh: Display: Building static mesh large_buildingF...
+[2023.09.17-17.29.44:536][526]LogStaticMesh: Built static mesh [0.03s] /Game/Environment/buildings/large_buildingF.large_buildingF
+[2023.09.17-17.29.44:553][526]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.09.17-17.29.44:567][526]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\large_buildingG.fbx)
+[2023.09.17-17.29.44:576][526]LogFbx: Loading FBX Scene from C:\Users\theda\OneDrive\Documents\Blender\Assets\kenney_city-kit-commercial\Models\FBX format\large_buildingG.fbx
+[2023.09.17-17.29.44:589][526]LogFbx: FBX Scene Loaded Succesfully
+[2023.09.17-17.29.44:793][526]LogStaticMesh: Display: Building static mesh large_buildingG...
+[2023.09.17-17.29.44:841][526]LogStaticMesh: Built static mesh [0.05s] /Game/Environment/buildings/large_buildingG.large_buildingG
+[2023.09.17-17.29.44:858][526]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.09.17-17.29.46:141][584]LogSlate: Window 'Message Log' being destroyed
+[2023.09.17-17.29.46:148][584]LogSlate: Window 'Message Log' being destroyed
+[2023.09.17-17.29.51:090][853]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/large_buildingA.large_buildingA
+[2023.09.17-17.29.51:090][853]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/large_buildingA.large_buildingA
+[2023.09.17-17.29.51:091][853]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/large_buildingA.large_buildingA as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_75
+[2023.09.17-17.29.52:077][911]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/large_buildingA.large_buildingA
+[2023.09.17-17.29.52:077][911]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/large_buildingA.large_buildingA
+[2023.09.17-17.29.52:078][911]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/large_buildingA.large_buildingA as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_80
+[2023.09.17-17.30.44:432][986]Cmd: POLY SELECT MEMORY UNION
+[2023.09.17-17.31.27:774][532]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/large_buildingB.large_buildingB
+[2023.09.17-17.31.27:774][532]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/large_buildingB.large_buildingB
+[2023.09.17-17.31.27:775][532]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/large_buildingB.large_buildingB as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_94
+[2023.09.17-17.31.28:206][557]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/large_buildingB.large_buildingB
+[2023.09.17-17.31.28:206][557]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/large_buildingB.large_buildingB
+[2023.09.17-17.31.28:208][557]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/large_buildingB.large_buildingB as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_121
+[2023.09.17-17.33.48:610][643]Cmd: EDIT COPY
+[2023.09.17-17.33.48:828][656]Cmd: EDIT PASTE
+[2023.09.17-17.33.55:243][ 29]Cmd: EDIT COPY
+[2023.09.17-17.33.55:461][ 42]Cmd: EDIT PASTE
+[2023.09.17-17.34.01:797][413]Cmd: EDIT COPY
+[2023.09.17-17.34.02:014][426]Cmd: EDIT PASTE
+[2023.09.17-17.34.12:165][ 25]Cmd: EDIT COPY
+[2023.09.17-17.34.12:398][ 39]Cmd: EDIT PASTE
+[2023.09.17-17.34.15:683][232]Cmd: TRANSACTION UNDO
+[2023.09.17-17.34.15:683][232]LogEditorTransaction: Undo Move Elements
+[2023.09.17-17.34.59:381][818]Cmd: EDIT COPY
+[2023.09.17-17.34.59:597][831]Cmd: EDIT PASTE
+[2023.09.17-17.35.11:753][538]Cmd: DELETE
+[2023.09.17-17.35.11:753][538]Cmd: ACTOR DELETE
+[2023.09.17-17.35.11:758][538]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.17-17.35.11:765][538]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.09.17-17.35.11:766][538]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.09.17-17.35.12:529][576]Cmd: DELETE
+[2023.09.17-17.35.12:529][576]Cmd: ACTOR DELETE
+[2023.09.17-17.35.12:534][576]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.17-17.35.12:539][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.09.17-17.35.12:540][576]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.09.17-17.35.13:730][646]Cmd: TRANSACTION UNDO
+[2023.09.17-17.35.13:730][646]LogEditorTransaction: Undo Delete Elements
+[2023.09.17-17.35.22:197][108]Cmd: DELETE
+[2023.09.17-17.35.22:197][108]Cmd: ACTOR DELETE
+[2023.09.17-17.35.22:201][108]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.17-17.35.22:206][108]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.09.17-17.35.22:207][108]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.09.17-17.35.23:131][160]Cmd: DELETE
+[2023.09.17-17.35.23:131][160]Cmd: ACTOR DELETE
+[2023.09.17-17.35.23:134][160]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.17-17.35.23:138][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.09.17-17.35.23:140][160]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.09.17-17.35.25:208][280]Cmd: DELETE
+[2023.09.17-17.35.25:209][280]Cmd: ACTOR DELETE
+[2023.09.17-17.35.25:212][280]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.17-17.35.25:216][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.09.17-17.35.25:217][280]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.09.17-17.35.25:780][309]Cmd: DELETE
+[2023.09.17-17.35.25:780][309]Cmd: ACTOR DELETE
+[2023.09.17-17.35.25:783][309]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.17-17.35.25:795][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.09.17-17.35.25:796][309]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2023.09.17-17.35.26:852][368]Cmd: DELETE
+[2023.09.17-17.35.26:852][368]Cmd: ACTOR DELETE
+[2023.09.17-17.35.26:855][368]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.17-17.35.26:860][368]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.09.17-17.35.26:861][368]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.09.17-17.35.28:992][492]Cmd: DELETE
+[2023.09.17-17.35.28:992][492]Cmd: ACTOR DELETE
+[2023.09.17-17.35.28:997][492]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.17-17.35.29:000][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.09.17-17.35.29:002][492]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.09.17-17.35.34:176][789]Cmd: DELETE
+[2023.09.17-17.35.34:177][789]Cmd: ACTOR DELETE
+[2023.09.17-17.35.34:180][789]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.17-17.35.34:185][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.09.17-17.35.34:186][789]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.09.17-17.35.56:722][ 98]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.09.17-17.36.07:605][697]Cmd: TRANSACTION UNDO
+[2023.09.17-17.36.07:606][697]LogEditorTransaction: Undo Move Elements
+[2023.09.17-17.36.08:355][716]Cmd: EDIT COPY
+[2023.09.17-17.36.08:688][736]Cmd: EDIT PASTE
+[2023.09.17-17.36.15:226][119]Cmd: EDIT COPY
+[2023.09.17-17.36.15:443][132]Cmd: EDIT PASTE
+[2023.09.17-17.36.22:646][553]Cmd: EDIT COPY
+[2023.09.17-17.36.22:896][568]Cmd: EDIT PASTE
+[2023.09.17-17.36.49:928][158]Cmd: EDIT COPY
+[2023.09.17-17.36.50:144][171]Cmd: EDIT PASTE
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: ================================================
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Total job queries 310, among them cache hits 250 (80.65%)
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Tracking 55 distinct input hashes that result in 38 distinct outputs (69.09%)
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: RAM used: 1.14 MiB of 819.20 MiB budget. Usage: 0.14%
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Shaders Compiled: 35
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Jobs assigned 40, completed 35 (87.50%)
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Average time worker was idle: 297.51 s
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Time job spent in pending queue: average 0.33 s, longest 2.73 s
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Job execution time: average 0.97 s, max 2.62 s
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Job life time (pending + execution): average 1.34 s, max 3.03
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Shader code size: average 34.78 KiB, min 3.559 KiB, max 71.035 KiB
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.13 s
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Jobs were issued in 40 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Average processing rate: 5.71 jobs/sec
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Total thread time: 19.879 s
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Total thread preprocess time: 10.398 s
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Percentage time preprocessing: 52.30%
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Effective parallelization: 3.24 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 1.64 sec, max 1.64 sec, min 1.64 sec)
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 1.64 sec, max 1.64 sec, min 1.64 sec)
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 1.62 sec, max 1.62 sec, min 1.62 sec)
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 1.62 sec, max 1.62 sec, min 1.62 sec)
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 1.62 sec, max 1.62 sec, min 1.62 sec)
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.69% of total time (compiled    5 times, average 0.35 sec, max 0.40 sec, min 0.29 sec)
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.34% of total time (compiled    5 times, average 0.33 sec, max 0.36 sec, min 0.30 sec)
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 8.27% of total time (compiled    1 times, average 1.64 sec, max 1.64 sec, min 1.64 sec)
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 8.26% of total time (compiled    1 times, average 1.64 sec, max 1.64 sec, min 1.64 sec)
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 8.17% of total time (compiled    1 times, average 1.62 sec, max 1.62 sec, min 1.62 sec)
+[2023.09.17-17.37.03:256][952]LogShaderCompilers: Display: ================================================
+[2023.09.17-17.37.24:051][186]Cmd: EDIT COPY
+[2023.09.17-17.37.24:292][200]Cmd: EDIT PASTE
+[2023.09.17-17.37.41:127][195]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.17-17.37.41:135][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.17-17.37.41:135][195]PIE: New page: PIE session: Level1 (Sep 17, 2023, 5:37:41 AM)
+[2023.09.17-17.37.41:164][195]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2023.09.17-17.37.41:182][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017917s)
+[2023.09.17-17.37.41:182][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.017985s)
+[2023.09.17-17.37.41:188][195]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.09.17-17.37.41:189][195]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.37.41:189][195]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.37.41:190][195]LogAIModule: Creating AISystem for world Level1
+[2023.09.17-17.37.41:191][195]LogPlayLevel: PIE: World Init took: (0.001285s)
+[2023.09.17-17.37.41:191][195]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.09.17-17.37.41:191][195]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.17-17.37.41:191][195]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.17-17.37.41:191][195]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.17-17.37.41:191][195]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.17-17.37.41:191][195]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.17-17.37.41:191][195]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.17-17.37.41:191][195]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.17-17.37.41:191][195]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.17-17.37.41:191][195]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.17-17.37.41:191][195]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.17-17.37.41:191][195]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.17-17.37.41:195][195]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.17-17.37.41:226][195]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.09.17-17.37.41:227][195]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.17-17.37.41:227][195]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.17-17.37.41:227][195]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.17-17.37.41:229][195]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.09.17-17.37.41:229][195]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.09.17-17.37.41:231][195]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.09.17-17.37.41:231][195]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.09.17-17.37.41:231][195]LogInit: FAudioDevice initialized with ID 6.
+[2023.09.17-17.37.41:231][195]LogAudio: Display: Audio Device (ID: 6) registered with world 'Level1'.
+[2023.09.17-17.37.41:231][195]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.09.17-17.37.41:237][195]LogLoad: Game class is 'PlayingGameMode_C'
+[2023.09.17-17.37.41:251][195]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2023.09.17-11.37.41
+[2023.09.17-17.37.41:251][195]LogWorld: Bringing up level for play took: 0.013584
+[2023.09.17-17.37.41:254][195]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2023.09.17-17.37.41:257][195]PIE: Server logged in
+[2023.09.17-17.37.41:258][195]PIE: Play in editor total start time 0.124 seconds.
+[2023.09.17-17.37.41:266][195]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Electronic_Hollow_main'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.09.17-17.38.07:724][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.38.07:724][772]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2023.09.17-17.38.07:725][772]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.38.07:727][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.38.07:731][772]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.17-17.38.07:735][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.38.07:742][772]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.17-17.38.07:742][772]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.09.17-17.38.07:742][772]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.09.17-17.38.07:745][772]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.09.17-17.38.07:752][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.38.07:759][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.09.17-17.38.07:842][773]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.09.17-17.38.23:157][659]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/large_buildingF.large_buildingF
+[2023.09.17-17.38.23:157][659]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/large_buildingF.large_buildingF
+[2023.09.17-17.38.23:157][659]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/large_buildingF.large_buildingF as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_242
+[2023.09.17-17.38.24:578][743]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/large_buildingF.large_buildingF
+[2023.09.17-17.38.24:578][743]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/large_buildingF.large_buildingF
+[2023.09.17-17.38.24:579][743]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/large_buildingF.large_buildingF as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_243
+[2023.09.17-17.38.49:134][182]Cmd: EDIT COPY
+[2023.09.17-17.38.49:384][197]Cmd: EDIT PASTE
+[2023.09.17-17.39.41:098][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.09.17-17.39.41:164][665]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Level1_Auto1
+[2023.09.17-17.39.41:164][665]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/Level1_Auto1C8CD5A52485B5541F19A12B630A7FC09.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/Autosaves/Game/Maps/Level1_Auto1.umap'
+[2023.09.17-17.39.41:165][665]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/Autosaves/Game/Maps/Level1_Auto1.umap is in the /Temp path, will not scan.
+[2023.09.17-17.39.41:165][665]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Maps/Level1_Auto1 is in the /Temp path, will not scan.
+[2023.09.17-17.39.41:165][665]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Maps/Level1_Auto1 is in the /Temp path, will not scan.
+[2023.09.17-17.39.41:165][665]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Level1' took 0.077
+[2023.09.17-17.39.41:165][665]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.077
+[2023.09.17-17.39.41:171][665]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Environment/buildings/large_buildingA] ([1] browsable assets)...
+[2023.09.17-17.39.41:319][665]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Environment/buildings/large_buildingA.large_buildingA]
+[2023.09.17-17.39.41:319][665]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/buildings/large_buildingA]
+[2023.09.17-17.39.41:332][665]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/buildings/large_buildingA_Auto1
+[2023.09.17-17.39.41:332][665]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/large_buildingA_Auto1D2D616174AE35357A01FE1A4EAE6D435.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/Autosaves/Game/Environment/buildings/large_buildingA_Auto1.uasset'
+[2023.09.17-17.39.41:334][665]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Environment/buildings/large_buildingB] ([1] browsable assets)...
+[2023.09.17-17.39.41:370][665]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Environment/buildings/large_buildingB.large_buildingB]
+[2023.09.17-17.39.41:370][665]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/buildings/large_buildingB]
+[2023.09.17-17.39.41:379][665]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/buildings/large_buildingB_Auto1
+[2023.09.17-17.39.41:380][665]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/large_buildingB_Auto178682DCC42DC9D4248952187196A657A.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/Autosaves/Game/Environment/buildings/large_buildingB_Auto1.uasset'
+[2023.09.17-17.39.41:381][665]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Environment/buildings/large_buildingC] ([1] browsable assets)...
+[2023.09.17-17.39.41:414][665]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Environment/buildings/large_buildingC.large_buildingC]
+[2023.09.17-17.39.41:414][665]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/buildings/large_buildingC]
+[2023.09.17-17.39.41:419][665]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/buildings/large_buildingC_Auto1
+[2023.09.17-17.39.41:419][665]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/large_buildingC_Auto14700F2F74F861967852EF9944D08D91E.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/Autosaves/Game/Environment/buildings/large_buildingC_Auto1.uasset'
+[2023.09.17-17.39.41:421][665]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Environment/buildings/large_buildingD] ([1] browsable assets)...
+[2023.09.17-17.39.41:447][665]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Environment/buildings/large_buildingD.large_buildingD]
+[2023.09.17-17.39.41:447][665]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/buildings/large_buildingD]
+[2023.09.17-17.39.41:452][665]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/buildings/large_buildingD_Auto1
+[2023.09.17-17.39.41:452][665]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/large_buildingD_Auto105653223426DFC69527DE88B837C45A2.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/Autosaves/Game/Environment/buildings/large_buildingD_Auto1.uasset'
+[2023.09.17-17.39.41:453][665]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Environment/buildings/large_buildingE] ([1] browsable assets)...
+[2023.09.17-17.39.41:479][665]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Environment/buildings/large_buildingE.large_buildingE]
+[2023.09.17-17.39.41:479][665]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/buildings/large_buildingE]
+[2023.09.17-17.39.41:485][665]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/buildings/large_buildingE_Auto1
+[2023.09.17-17.39.41:485][665]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/large_buildingE_Auto13BEE4DC642C5114FCCDC92838C6BC661.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/Autosaves/Game/Environment/buildings/large_buildingE_Auto1.uasset'
+[2023.09.17-17.39.41:486][665]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Environment/buildings/large_buildingF] ([1] browsable assets)...
+[2023.09.17-17.39.41:512][665]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Environment/buildings/large_buildingF.large_buildingF]
+[2023.09.17-17.39.41:512][665]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/buildings/large_buildingF]
+[2023.09.17-17.39.41:518][665]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/buildings/large_buildingF_Auto1
+[2023.09.17-17.39.41:518][665]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/large_buildingF_Auto11835ADD3415E5D94B0AA9FB671283F1D.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/Autosaves/Game/Environment/buildings/large_buildingF_Auto1.uasset'
+[2023.09.17-17.39.41:519][665]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Environment/buildings/large_buildingG] ([1] browsable assets)...
+[2023.09.17-17.39.41:551][665]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Environment/buildings/large_buildingG.large_buildingG]
+[2023.09.17-17.39.41:551][665]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/buildings/large_buildingG]
+[2023.09.17-17.39.41:562][665]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/buildings/large_buildingG_Auto1
+[2023.09.17-17.39.41:562][665]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/large_buildingG_Auto1921EC8B24BB442C2F0BD909163D381A2.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/Autosaves/Game/Environment/buildings/large_buildingG_Auto1.uasset'
+[2023.09.17-17.39.41:563][665]LogFileHelpers: Auto-saving content packages took 0.398
+[2023.09.17-17.40.34:830][113]Cmd: EDIT COPY
+[2023.09.17-17.40.35:096][129]Cmd: EDIT PASTE
+[2023.09.17-17.40.43:009][593]Cmd: EDIT COPY
+[2023.09.17-17.40.43:226][606]Cmd: EDIT PASTE
+[2023.09.17-17.40.53:600][217]Cmd: EDIT COPY
+[2023.09.17-17.40.53:816][230]Cmd: EDIT PASTE
+[2023.09.17-17.41.07:338][ 31]Cmd: EDIT COPY
+[2023.09.17-17.41.07:621][ 48]Cmd: EDIT PASTE
+[2023.09.17-17.41.24:697][ 60]Cmd: EDIT COPY
+[2023.09.17-17.41.24:697][ 60]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'EDIT'. 
+[2023.09.17-17.41.24:881][ 71]Cmd: EDIT PASTE
+[2023.09.17-17.41.39:839][957]Cmd: EDIT COPY
+[2023.09.17-17.41.40:171][977]Cmd: EDIT PASTE
+[2023.09.17-17.42.11:941][812]Cmd: EDIT COPY
+[2023.09.17-17.42.12:173][826]Cmd: EDIT PASTE
+[2023.09.17-17.43.11:239][258]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/large_buildingG.large_buildingG
+[2023.09.17-17.43.11:239][258]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/large_buildingG.large_buildingG
+[2023.09.17-17.43.11:240][258]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/large_buildingG.large_buildingG as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_252
+[2023.09.17-17.43.12:619][339]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/large_buildingG.large_buildingG
+[2023.09.17-17.43.12:619][339]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/buildings/large_buildingG.large_buildingG
+[2023.09.17-17.43.12:621][339]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/buildings/large_buildingG.large_buildingG as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_253
+[2023.09.17-17.44.33:824][ 61]Cmd: EDIT COPY
+[2023.09.17-17.44.34:073][ 76]Cmd: EDIT PASTE
+[2023.09.17-17.44.40:878][465]Cmd: EDIT COPY
+[2023.09.17-17.44.41:096][478]Cmd: EDIT PASTE
+[2023.09.17-17.44.55:018][271]Cmd: EDIT COPY
+[2023.09.17-17.44.55:317][289]Cmd: EDIT PASTE
+[2023.09.17-17.45.04:951][854]Cmd: EDIT COPY
+[2023.09.17-17.45.05:218][870]Cmd: EDIT PASTE
+[2023.09.17-17.45.12:428][291]Cmd: EDIT COPY
+[2023.09.17-17.45.12:677][306]Cmd: EDIT PASTE
+[2023.09.17-17.45.23:932][961]Cmd: EDIT COPY
+[2023.09.17-17.45.24:132][973]Cmd: EDIT PASTE
+[2023.09.17-17.45.37:524][753]Cmd: EDIT COPY
+[2023.09.17-17.45.37:807][770]Cmd: EDIT PASTE
+[2023.09.17-17.45.42:312][ 29]Cmd: EDIT COPY
+[2023.09.17-17.45.42:562][ 44]Cmd: EDIT PASTE
+[2023.09.17-17.45.47:738][343]Cmd: EDIT COPY
+[2023.09.17-17.45.47:955][356]Cmd: EDIT PASTE
+[2023.09.17-17.46.01:699][167]Cmd: EDIT COPY
+[2023.09.17-17.46.01:966][183]Cmd: EDIT PASTE
+[2023.09.17-17.46.10:615][689]Cmd: EDIT COPY
+[2023.09.17-17.46.10:865][704]Cmd: EDIT PASTE
+[2023.09.17-17.46.15:925][997]Cmd: EDIT COPY
+[2023.09.17-17.46.16:175][ 12]Cmd: EDIT PASTE
+[2023.09.17-17.46.27:989][714]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.17-17.46.27:998][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.17-17.46.27:998][714]PIE: New page: PIE session: Level1 (Sep 17, 2023, 5:46:27 AM)
+[2023.09.17-17.46.27:998][714]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2023.09.17-17.46.28:013][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014738s)
+[2023.09.17-17.46.28:013][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.014792s)
+[2023.09.17-17.46.28:020][714]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.09.17-17.46.28:020][714]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.46.28:020][714]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.46.28:022][714]LogAIModule: Creating AISystem for world Level1
+[2023.09.17-17.46.28:022][714]LogPlayLevel: PIE: World Init took: (0.001237s)
+[2023.09.17-17.46.28:022][714]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.09.17-17.46.28:022][714]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.17-17.46.28:022][714]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.17-17.46.28:022][714]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.17-17.46.28:022][714]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.17-17.46.28:022][714]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.17-17.46.28:022][714]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.17-17.46.28:022][714]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.17-17.46.28:022][714]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.17-17.46.28:023][714]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.17-17.46.28:023][714]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.17-17.46.28:023][714]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.17-17.46.28:025][714]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.17-17.46.28:046][714]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.09.17-17.46.28:046][714]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.17-17.46.28:046][714]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.17-17.46.28:046][714]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.17-17.46.28:047][714]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.09.17-17.46.28:047][714]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.09.17-17.46.28:049][714]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.09.17-17.46.28:049][714]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.09.17-17.46.28:049][714]LogInit: FAudioDevice initialized with ID 7.
+[2023.09.17-17.46.28:049][714]LogAudio: Display: Audio Device (ID: 7) registered with world 'Level1'.
+[2023.09.17-17.46.28:049][714]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.09.17-17.46.28:052][714]LogLoad: Game class is 'PlayingGameMode_C'
+[2023.09.17-17.46.28:062][714]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2023.09.17-11.46.28
+[2023.09.17-17.46.28:062][714]LogWorld: Bringing up level for play took: 0.009976
+[2023.09.17-17.46.28:064][714]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2023.09.17-17.46.28:067][714]PIE: Server logged in
+[2023.09.17-17.46.28:068][714]PIE: Play in editor total start time 0.071 seconds.
+[2023.09.17-17.46.28:075][714]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Electronic_Hollow_main'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.09.17-17.47.10:824][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.47.10:824][269]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2023.09.17-17.47.10:825][269]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.47.10:827][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.47.10:832][269]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.17-17.47.10:834][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.47.10:844][269]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.17-17.47.10:844][269]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.09.17-17.47.10:844][269]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.09.17-17.47.10:846][269]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.09.17-17.47.10:851][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.47.10:855][269]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.09.17-17.47.10:922][270]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.09.17-17.47.29:757][ 15]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.17-17.47.29:764][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.17-17.47.29:765][ 15]PIE: New page: PIE session: Level1 (Sep 17, 2023, 5:47:29 AM)
+[2023.09.17-17.47.29:814][ 15]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2023.09.17-17.47.29:839][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024731s)
+[2023.09.17-17.47.29:839][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.024848s)
+[2023.09.17-17.47.29:846][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.09.17-17.47.29:847][ 15]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.47.29:847][ 15]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.47.29:848][ 15]LogAIModule: Creating AISystem for world Level1
+[2023.09.17-17.47.29:848][ 15]LogPlayLevel: PIE: World Init took: (0.001100s)
+[2023.09.17-17.47.29:848][ 15]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.09.17-17.47.29:848][ 15]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.17-17.47.29:848][ 15]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.17-17.47.29:849][ 15]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.17-17.47.29:849][ 15]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.17-17.47.29:849][ 15]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.17-17.47.29:849][ 15]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.17-17.47.29:849][ 15]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.17-17.47.29:849][ 15]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.17-17.47.29:849][ 15]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.17-17.47.29:849][ 15]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.17-17.47.29:849][ 15]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.17-17.47.29:851][ 15]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.17-17.47.29:873][ 15]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.09.17-17.47.29:873][ 15]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.17-17.47.29:873][ 15]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.17-17.47.29:873][ 15]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.17-17.47.29:874][ 15]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.09.17-17.47.29:874][ 15]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.09.17-17.47.29:876][ 15]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.09.17-17.47.29:876][ 15]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.09.17-17.47.29:876][ 15]LogInit: FAudioDevice initialized with ID 8.
+[2023.09.17-17.47.29:876][ 15]LogAudio: Display: Audio Device (ID: 8) registered with world 'Level1'.
+[2023.09.17-17.47.29:876][ 15]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2023.09.17-17.47.29:879][ 15]LogLoad: Game class is 'PlayingGameMode_C'
+[2023.09.17-17.47.29:888][ 15]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2023.09.17-11.47.29
+[2023.09.17-17.47.29:888][ 15]LogWorld: Bringing up level for play took: 0.009894
+[2023.09.17-17.47.29:891][ 15]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2023.09.17-17.47.29:894][ 15]PIE: Server logged in
+[2023.09.17-17.47.29:895][ 15]PIE: Play in editor total start time 0.13 seconds.
+[2023.09.17-17.47.29:901][ 15]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Electronic_Hollow_main'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.09.17-17.47.30:815][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.47.30:815][ 58]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2023.09.17-17.47.30:815][ 58]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.47.30:818][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.47.30:822][ 58]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.17-17.47.30:825][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.47.30:832][ 58]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.17-17.47.30:832][ 58]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2023.09.17-17.47.30:832][ 58]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.09.17-17.47.30:836][ 58]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.09.17-17.47.30:843][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.47.30:851][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.09.17-17.47.30:916][ 59]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.09.17-17.47.45:889][923]Cmd: EDIT COPY
+[2023.09.17-17.47.46:088][935]Cmd: EDIT PASTE
+[2023.09.17-17.47.52:379][303]Cmd: EDIT COPY
+[2023.09.17-17.47.52:596][316]Cmd: EDIT PASTE
+[2023.09.17-17.48.06:153][662]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.17-17.48.06:164][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.17-17.48.06:164][662]PIE: New page: PIE session: Level1 (Sep 17, 2023, 5:48:06 AM)
+[2023.09.17-17.48.06:164][662]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2023.09.17-17.48.06:182][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018128s)
+[2023.09.17-17.48.06:182][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.018190s)
+[2023.09.17-17.48.06:189][662]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.09.17-17.48.06:190][662]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.48.06:190][662]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.48.06:191][662]LogAIModule: Creating AISystem for world Level1
+[2023.09.17-17.48.06:191][662]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2023.09.17-17.48.06:191][662]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.09.17-17.48.06:191][662]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.17-17.48.06:191][662]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.17-17.48.06:191][662]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.17-17.48.06:191][662]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.17-17.48.06:191][662]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.17-17.48.06:191][662]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.17-17.48.06:191][662]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.17-17.48.06:191][662]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.17-17.48.06:192][662]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.17-17.48.06:192][662]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.17-17.48.06:192][662]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.17-17.48.06:194][662]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.17-17.48.06:215][662]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.09.17-17.48.06:215][662]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.17-17.48.06:215][662]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.17-17.48.06:215][662]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.17-17.48.06:216][662]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.09.17-17.48.06:216][662]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.09.17-17.48.06:218][662]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.09.17-17.48.06:218][662]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.09.17-17.48.06:218][662]LogInit: FAudioDevice initialized with ID 9.
+[2023.09.17-17.48.06:218][662]LogAudio: Display: Audio Device (ID: 9) registered with world 'Level1'.
+[2023.09.17-17.48.06:218][662]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2023.09.17-17.48.06:221][662]LogLoad: Game class is 'PlayingGameMode_C'
+[2023.09.17-17.48.06:231][662]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2023.09.17-11.48.06
+[2023.09.17-17.48.06:231][662]LogWorld: Bringing up level for play took: 0.009988
+[2023.09.17-17.48.06:233][662]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2023.09.17-17.48.06:237][662]PIE: Server logged in
+[2023.09.17-17.48.06:238][662]PIE: Play in editor total start time 0.076 seconds.
+[2023.09.17-17.48.06:245][662]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Electronic_Routine_main'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.09.17-17.48.29:174][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.48.29:175][ 22]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2023.09.17-17.48.29:175][ 22]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.48.29:177][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.48.29:183][ 22]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.17-17.48.29:186][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.48.29:193][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.48.29:195][ 22]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2023.09.17-17.48.29:195][ 22]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.09.17-17.48.29:198][ 22]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.09.17-17.48.29:212][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.09.17-17.48.29:295][ 23]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.09.17-17.48.43:076][662]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.17-17.48.43:214][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.17-17.48.43:243][662]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.09.17-17.48.43:295][662]LogSavePackage: Moving output files for package: /Game/Maps/Level1
+[2023.09.17-17.48.43:296][662]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/Level175AE16D64E87674A9B3AF1BCAFFA5D24.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Maps/Level1.umap'
+[2023.09.17-17.48.43:303][662]LogFileHelpers: Saving map 'Level1' took 0.089
+[2023.09.17-17.48.43:320][662]LogFileHelpers: InternalPromptForCheckoutAndSave took 244 ms (total: 4.29 sec)
+[2023.09.17-17.48.43:322][662]AssetCheck: New page: Asset Save: Level1
+[2023.09.17-17.48.43:322][662]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Level1.Level1
+[2023.09.17-17.48.45:012][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.09.17-17.48.45:017][753]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.17-17.48.45:182][753]LogSavePackage: Moving output files for package: /Game/Environment/buildings/large_buildingA
+[2023.09.17-17.48.45:182][753]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/large_buildingAC1FA0B8E4E4A4F6A1B434D8BBC47868F.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/large_buildingA.uasset'
+[2023.09.17-17.48.45:190][753]LogSavePackage: Moving output files for package: /Game/Environment/buildings/large_buildingB
+[2023.09.17-17.48.45:190][753]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/large_buildingB79F912EA4720949E83F25C97BFD3382C.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/large_buildingB.uasset'
+[2023.09.17-17.48.45:197][753]LogSavePackage: Moving output files for package: /Game/Environment/buildings/large_buildingC
+[2023.09.17-17.48.45:197][753]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/large_buildingC5DB6E2E94DE0B9E07681CAA8E804BBD7.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/large_buildingC.uasset'
+[2023.09.17-17.48.45:202][753]LogSavePackage: Moving output files for package: /Game/Environment/buildings/large_buildingD
+[2023.09.17-17.48.45:202][753]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/large_buildingD9EDB84A8419DDDA04B533E9A492D9320.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/large_buildingD.uasset'
+[2023.09.17-17.48.45:207][753]LogSavePackage: Moving output files for package: /Game/Environment/buildings/large_buildingE
+[2023.09.17-17.48.45:207][753]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/large_buildingEA4469CC740BA8281D21971B0C3755015.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/large_buildingE.uasset'
+[2023.09.17-17.48.45:211][753]LogSavePackage: Moving output files for package: /Game/Environment/buildings/large_buildingF
+[2023.09.17-17.48.45:211][753]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/large_buildingF60BC17DC419513130ADCAC985452CDE5.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/large_buildingF.uasset'
+[2023.09.17-17.48.45:218][753]LogSavePackage: Moving output files for package: /Game/Environment/buildings/large_buildingG
+[2023.09.17-17.48.45:218][753]LogSavePackage: Moving '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Saved/large_buildingGCE264B504B716D806E80E599333934BF.tmp' to '../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Environment/buildings/large_buildingG.uasset'
+[2023.09.17-17.48.45:235][753]LogFileHelpers: InternalPromptForCheckoutAndSave took 217 ms (total: 4.51 sec)
+[2023.09.17-17.48.45:237][753]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.17-17.48.45:237][753]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Environment/buildings/large_buildingA.large_buildingA
+[2023.09.17-17.48.45:237][753]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Environment/buildings/large_buildingB.large_buildingB
+[2023.09.17-17.48.45:237][753]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Environment/buildings/large_buildingC.large_buildingC
+[2023.09.17-17.48.45:237][753]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Environment/buildings/large_buildingD.large_buildingD
+[2023.09.17-17.48.45:237][753]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Environment/buildings/large_buildingE.large_buildingE
+[2023.09.17-17.48.45:237][753]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Environment/buildings/large_buildingF.large_buildingF
+[2023.09.17-17.48.45:237][753]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Environment/buildings/large_buildingG.large_buildingG
+[2023.09.17-17.55.22:638][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.09.17-17.55.22:778][689]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.55.22:783][689]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Level3.Level3
+[2023.09.17-17.55.22:783][689]Cmd: MAP LOAD FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Maps/Level3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.17-17.55.22:783][689]LightingResults: New page: Lighting Build
+[2023.09.17-17.55.22:784][689]LoadErrors: New page: Loading map: Level3.umap
+[2023.09.17-17.55.22:810][689]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.55.22:810][689]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.55.22:810][689]MapCheck: New page: Map Check
+[2023.09.17-17.55.22:810][689]LightingResults: New page: Lighting Build
+[2023.09.17-17.55.22:818][689]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.17-17.55.22:824][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.09.17-17.55.22:827][689]LogWorld: UWorld::CleanupWorld for Level3, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.55.22:827][689]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.55.22:836][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.09.17-17.55.22:842][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.09.17-17.55.22:847][689]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level3'.
+[2023.09.17-17.55.22:847][689]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.55.22:847][689]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.55.22:848][689]LogAIModule: Creating AISystem for world Level3
+[2023.09.17-17.55.22:864][689]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.17-17.55.22:869][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.09.17-17.55.22:876][689]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.17-17.55.22:876][689]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.116ms to complete.
+[2023.09.17-17.55.24:942][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.09.17-17.55.25:055][804]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.55.25:058][804]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Level4.Level4
+[2023.09.17-17.55.25:058][804]Cmd: MAP LOAD FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Maps/Level4.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.17-17.55.25:058][804]LightingResults: New page: Lighting Build
+[2023.09.17-17.55.25:058][804]LoadErrors: New page: Loading map: Level4.umap
+[2023.09.17-17.55.25:116][804]LogWorld: UWorld::CleanupWorld for Level3, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.55.25:116][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.55.25:117][804]MapCheck: New page: Map Check
+[2023.09.17-17.55.25:117][804]LightingResults: New page: Lighting Build
+[2023.09.17-17.55.25:123][804]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.17-17.55.25:128][804]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.09.17-17.55.25:131][804]LogWorld: UWorld::CleanupWorld for Level4, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.55.25:131][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.55.25:141][804]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.09.17-17.55.25:148][804]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.09.17-17.55.25:158][804]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level4'.
+[2023.09.17-17.55.25:158][804]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.55.25:158][804]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.55.25:159][804]LogAIModule: Creating AISystem for world Level4
+[2023.09.17-17.55.25:174][804]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.17-17.55.25:180][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.09.17-17.55.25:186][804]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.17-17.55.25:186][804]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.116ms to complete.
+[2023.09.17-17.55.26:636][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.09.17-17.55.26:783][884]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.55.26:788][884]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Level2.Level2
+[2023.09.17-17.55.26:788][884]Cmd: MAP LOAD FILE="../../../../../../Users/theda/Documents/GitHub/GamecraftTeam12Jam/Content/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.17-17.55.26:788][884]LightingResults: New page: Lighting Build
+[2023.09.17-17.55.26:788][884]LoadErrors: New page: Loading map: Level2.umap
+[2023.09.17-17.55.26:808][884]LogWorld: UWorld::CleanupWorld for Level4, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.55.26:808][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.55.26:808][884]MapCheck: New page: Map Check
+[2023.09.17-17.55.26:808][884]LightingResults: New page: Lighting Build
+[2023.09.17-17.55.26:812][884]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.17-17.55.26:815][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.09.17-17.55.26:817][884]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.55.26:817][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.55.26:823][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.09.17-17.55.26:827][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.09.17-17.55.26:834][884]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level2'.
+[2023.09.17-17.55.26:834][884]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.55.26:834][884]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.55.26:835][884]LogAIModule: Creating AISystem for world Level2
+[2023.09.17-17.55.26:852][884]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.17-17.55.26:858][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.09.17-17.55.26:863][884]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.17-17.55.26:864][884]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.121ms to complete.
+[2023.09.17-17.55.43:417][865]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.17-17.55.43:423][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.17-17.55.43:424][865]PIE: New page: PIE session: Level2 (Sep 17, 2023, 5:55:43 AM)
+[2023.09.17-17.55.43:464][865]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2023.09.17-17.55.43:479][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014464s)
+[2023.09.17-17.55.43:479][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.014602s)
+[2023.09.17-17.55.43:484][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.09.17-17.55.43:485][865]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.17-17.55.43:485][865]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.17-17.55.43:486][865]LogAIModule: Creating AISystem for world Level2
+[2023.09.17-17.55.43:487][865]LogPlayLevel: PIE: World Init took: (0.001581s)
+[2023.09.17-17.55.43:487][865]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.09.17-17.55.43:487][865]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.17-17.55.43:487][865]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.17-17.55.43:487][865]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.17-17.55.43:487][865]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.17-17.55.43:487][865]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.17-17.55.43:487][865]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.17-17.55.43:487][865]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.17-17.55.43:487][865]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.17-17.55.43:488][865]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.17-17.55.43:488][865]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.17-17.55.43:488][865]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.17-17.55.43:491][865]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.17-17.55.43:518][865]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.09.17-17.55.43:518][865]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.17-17.55.43:518][865]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.17-17.55.43:518][865]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.17-17.55.43:519][865]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.09.17-17.55.43:520][865]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.09.17-17.55.43:522][865]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.09.17-17.55.43:522][865]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.09.17-17.55.43:522][865]LogInit: FAudioDevice initialized with ID 10.
+[2023.09.17-17.55.43:522][865]LogAudio: Display: Audio Device (ID: 10) registered with world 'Level2'.
+[2023.09.17-17.55.43:522][865]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2023.09.17-17.55.43:526][865]LogLoad: Game class is 'PlayingGameMode_C'
+[2023.09.17-17.55.43:531][865]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2023.09.17-11.55.43
+[2023.09.17-17.55.43:532][865]LogWorld: Bringing up level for play took: 0.004903
+[2023.09.17-17.55.43:533][865]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.09.17-17.55.43:536][865]PIE: Server logged in
+[2023.09.17-17.55.43:537][865]PIE: Play in editor total start time 0.114 seconds.
+[2023.09.17-17.55.43:541][865]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Electronic_Hollow_main'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.09.17-17.56.00:905][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.56.00:905][896]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level2
+[2023.09.17-17.56.00:905][896]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2023.09.17-17.56.00:907][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.56.00:913][896]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.17-17.56.00:915][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.17-17.56.00:920][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.17-17.56.00:921][896]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2023.09.17-17.56.00:921][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.09.17-17.56.00:925][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.09.17-17.56.00:937][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.09.17-17.56.01:004][898]LogPlayLevel: Display: Destroying online subsystem :Context_15
+>>>>>>> 9573e4e63a4582ecfc729ebf81e10890c874dd02
