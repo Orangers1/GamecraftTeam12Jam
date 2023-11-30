@@ -5,4 +5,4 @@ This is a readme for the gamejam game team 12 made for the September 2023 UofU G
 
 Game made in Unreal Engine, Used blueprint so to view the code you would need to build the project.
 
-Packaged version might require the c++ stuff to run right now, not sure.
+Packaged version might require the c++ sdk to run right now, not sure.
