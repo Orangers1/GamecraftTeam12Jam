@@ -1,8 +1,6 @@
-# GamecraftTeam12Jam
-GamecraftTeam12Jam repository
+# Tardy
+A simple arcade-style game about driving a car to school fast.
 
 This is a readme for the gamejam game team 12 made for the September 2023 UofU Gamecraft Jam.
 
-Its an unreal project.
-
-I don't know what else to say.
+Game made in Unreal Engine.
